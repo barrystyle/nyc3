@@ -44,11 +44,10 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  * transaction cannot be spent since it did not originally exist in the
  * database.
  *
- * CBlock(hash=000000000019d6, ver=1, hashPrevBlock=00000000000000, hashMerkleRoot=4a5e1e, nTime=1231006505, nBits=1d00ffff, nNonce=2083236893, vtx=1)
- *   CTransaction(hash=4a5e1e, ver=1, vin.size=1, vout.size=1, nLockTime=0)
- *     CTxIn(COutPoint(000000, -1), coinbase 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73)
- *     CTxOut(nValue=50.00000000, scriptPubKey=0x5F1DF16B2B704C8A578D0B)
- *   vMerkleTree: 4a5e1e
+ * CBlock(hash=17e7131a4eb39658cca55c136f59d2cf795db379f3cb4fa640b171ee4ae90e9a, ver=0x00000001, 
+ *      hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, 
+ *      hashMerkleRoot=dfd0e8579d4f22ce8fb4a7c2e372469d027e2a4954b6a3ef302c698052bdae1f, 
+ *      nTime=1559078000, nBits=1f00ffff, nNonce=26552, vtx=1)
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
@@ -105,10 +104,10 @@ public:
         m_assumed_blockchain_size = 240;
         m_assumed_chain_state_size = 3;
 
-        genesis = CreateGenesisBlock(nTime, nNonce, 0x1f00ffff, 1, 0 * COIN);
+        genesis = CreateGenesisBlock(1559078000, 26552, 0x1f00ffff, 1, 0 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        // assert(consensus.hashGenesisBlock == uint256S("0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f"));
-        // assert(genesis.hashMerkleRoot == uint256S("0x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x17e7131a4eb39658cca55c136f59d2cf795db379f3cb4fa640b171ee4ae90e9a"));
+        assert(genesis.hashMerkleRoot == uint256S("0xdfd0e8579d4f22ce8fb4a7c2e372469d027e2a4954b6a3ef302c698052bdae1f"));
 
         // vSeeds.emplace_back("");
 

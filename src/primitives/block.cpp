@@ -19,7 +19,7 @@ uint256 CBlockHeader::GetHash() const
 uint256 CBlockHeader::GetPoWHash() const
 {
     uint256 thash;
-    scrypt_1024_1_1_256(BEGIN(nVersion), BEGIN(thash));
+    PHS((void*)BEGIN(thash),32,(void*)BEGIN(nVersion),80,(void*)BEGIN(nVersion),80,4,4);
     return thash;
 }
 
