@@ -11,7 +11,7 @@
 
 #include <qt/addresstablemodel.h>
 #include <base58.h>
-#include <qt/bitcoinunits.h>
+#include <qt/nyc3units.h>
 #include <qt/guiutil.h>
 #include <qt/optionsmodel.h>
 #include <qt/platformstyle.h>

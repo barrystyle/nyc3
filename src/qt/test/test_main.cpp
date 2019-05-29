@@ -8,7 +8,7 @@
 
 #include <chainparams.h>
 #include <interfaces/node.h>
-#include <qt/bitcoin.h>
+#include <qt/nyc3.h>
 #include <qt/test/apptests.h>
 #include <qt/test/rpcnestedtests.h>
 #include <util/system.h>
