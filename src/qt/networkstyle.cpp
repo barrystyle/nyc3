@@ -7,6 +7,8 @@
 #include <qt/guiconstants.h>
 
 #include <QApplication>
+#include <QTime>
+#include <QString>
 
 static const struct {
     const char *networkId;
@@ -26,8 +28,18 @@ NetworkStyle::NetworkStyle(const QString &_appName, const int iconColorHueShift,
     appName(_appName),
     titleAddText(qApp->translate("SplashScreen", _titleAddText))
 {
-    // load pixmap
-    QPixmap pixmap(":/icons/bitcoin");
+
+    int randomsplash = qrand() % (5 - 1) + 1;
+    QString selectedimg;
+    if (randomsplash == 1)
+       selectedimg  = (":/icons/spl1");
+    if (randomsplash == 2)
+       selectedimg  = (":/icons/spl2");
+    if (randomsplash == 3)
+       selectedimg  = (":/icons/spl3");
+    if (randomsplash == 4)
+       selectedimg  = (":/icons/spl4");
+    QPixmap pixmap(selectedimg);
 
     if(iconColorHueShift != 0 && iconColorSaturationReduction != 0)
     {

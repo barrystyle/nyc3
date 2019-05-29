@@ -56,9 +56,9 @@ public:
      */
     enum Unit
     {
-        BTC,
-        mBTC,
-        uBTC,
+        NYC3,
+        mNYC3,
+        uNYC3,
         SAT
     };
 

@@ -1,5 +1,9 @@
 <!DOCTYPE RCC><RCC version="1.0">
     <qresource prefix="/icons">
+	    <file alias="spl1">res/icons/1.png</file>
+		<file alias="spl2">res/icons/2.png</file>
+		<file alias="spl3">res/icons/3.png</file>
+		<file alias="spl4">res/icons/4.png</file>
         <file alias="bitcoin">res/icons/nyc3.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
         <file alias="quit">res/icons/quit.png</file>
