@@ -63,7 +63,7 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.powLimit = uint256S("0000fffff0000000000000000000000000000000000000000000000000000000");
+        consensus.powLimit = uint256S("007ffff000000000000000000000000000000000000000000000000000000000");
         consensus.nPowTargetTimespan = 10; // you read correctly..
         consensus.nPowTargetSpacing = consensus.nPowTargetTimespan;
         consensus.fPowAllowMinDifficultyBlocks = false;
@@ -104,9 +104,10 @@ public:
         m_assumed_blockchain_size = 240;
         m_assumed_chain_state_size = 3;
 
-        genesis = CreateGenesisBlock(1559078000, 26552, 0x1f00ffff, 1, 0 * COIN);
+
+        genesis = CreateGenesisBlock(1559208000, 427, 0x1f7ffff0, 1, 0 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x17e7131a4eb39658cca55c136f59d2cf795db379f3cb4fa640b171ee4ae90e9a"));
+        assert(consensus.hashGenesisBlock == uint256S("0x9aa6888178b34fa8895f471e96f3e13b4bd3aabdb9a19e6e773f91c6c34bc63c"));
         assert(genesis.hashMerkleRoot == uint256S("0xdfd0e8579d4f22ce8fb4a7c2e372469d027e2a4954b6a3ef302c698052bdae1f"));
 
         // vSeeds.emplace_back("");
@@ -132,7 +133,7 @@ public:
         };
 
         chainTxData = ChainTxData{
-            /* nTime    */ 1559078000,
+            /* nTime    */ 1559208000,
             /* nTxCount */ 1,
             /* dTxRate  */ 1,
         };
