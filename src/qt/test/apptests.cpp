@@ -6,8 +6,8 @@
 
 #include <chainparams.h>
 #include <init.h>
-#include <qt/bitcoin.h>
-#include <qt/bitcoingui.h>
+#include <qt/nyc3.h>
+#include <qt/nyc3gui.h>
 #include <qt/networkstyle.h>
 #include <qt/rpcconsole.h>
 #include <shutdown.h>

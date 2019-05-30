@@ -17,8 +17,10 @@
 /**
  * Maximum amount of time that a block timestamp is allowed to exceed the
  * current network-adjusted time before the block will be accepted.
+ *
+ * Note: Given our 10s block time, 120s is appropriate by scale (10 min/2hr bitcoin)
  */
-static constexpr int64_t MAX_FUTURE_BLOCK_TIME = 2 * 60 * 60;
+static constexpr int64_t MAX_FUTURE_BLOCK_TIME = 2 * 60;
 
 /**
  * Timestamp window used as a grace period by code that compares external
@@ -310,6 +312,11 @@ public:
      * Does not imply the transactions are still stored on disk. (IsBlockPruned might return true)
      */
     bool HaveTxsDownloaded() const { return nChainTx != 0; }
+
+    uint256 GetBlockPoWHash() const
+    {
+        return GetBlockHeader().GetPoWHash();
+    }
 
     int64_t GetBlockTime() const
     {

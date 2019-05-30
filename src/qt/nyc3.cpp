@@ -6,8 +6,8 @@
 #include <config/bitcoin-config.h>
 #endif
 
-#include <qt/bitcoin.h>
-#include <qt/bitcoingui.h>
+#include <qt/nyc3.h>
+#include <qt/nyc3gui.h>
 
 #include <chainparams.h>
 #include <qt/clientmodel.h>
@@ -434,8 +434,8 @@ int GuiMain(int argc, char* argv[])
     // Do not refer to data directory yet, this can be overridden by Intro::pickDataDirectory
 
     /// 1. Basic Qt initialization (not dependent on parameters or configuration)
-    Q_INIT_RESOURCE(bitcoin);
-    Q_INIT_RESOURCE(bitcoin_locale);
+    Q_INIT_RESOURCE(nyc3);
+    Q_INIT_RESOURCE(nyc3_locale);
 
     BitcoinApplication app(*node, argc, argv);
     // Generate high-dpi pixmaps
