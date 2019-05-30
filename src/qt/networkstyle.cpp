@@ -28,7 +28,10 @@ NetworkStyle::NetworkStyle(const QString &_appName, const int iconColorHueShift,
     appName(_appName),
     titleAddText(qApp->translate("SplashScreen", _titleAddText))
 {
-
+    // seed rand from timer
+    QTime time = QTime::currentTime();
+    qsrand((uint)time.msec());
+    // select a random image on launch
     int randomsplash = qrand() % (5 - 1) + 1;
     QString selectedimg;
     if (randomsplash == 1)
