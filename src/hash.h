@@ -6,10 +6,10 @@
 #ifndef BITCOIN_HASH_H
 #define BITCOIN_HASH_H
 
+#include <argon2s/argon2.h>
 #include <crypto/common.h>
 #include <crypto/ripemd160.h>
 #include <crypto/sha256.h>
-#include <crypto/parallel/parallel.h>
 #include <prevector.h>
 #include <serialize.h>
 #include <uint256.h>
@@ -204,5 +204,39 @@ uint256 SerializeHash(const T& obj, int nType=SER_GETHASH, int nVersion=PROTOCOL
 unsigned int MurmurHash3(unsigned int nHashSeed, const std::vector<unsigned char>& vDataToHash);
 
 void BIP32Hash(const ChainCode &chainCode, unsigned int nChild, unsigned char header, const unsigned char data[32], unsigned char output[64]);
+
+static const size_t INPUT_BYTES = 80;
+static const size_t OUTPUT_BYTES = 32;
+static const unsigned int DEFAULT_ARGON2_FLAG = 2;
+
+template <typename T1>
+inline uint256 argon2s_hash(const T1 pbegin, const T1 pend)
+{
+        uint256 hash[1];
+        static unsigned char pblank[1];
+
+        argon2_context context;
+        context.out = (uint8_t*)static_cast<void*>(&hash[0]);
+        context.outlen = (uint32_t)OUTPUT_BYTES;
+        context.pwd = (uint8_t*)(pbegin == pend ? pblank : static_cast<const void*>(&pbegin[0]));
+        context.pwdlen = (uint32_t)INPUT_BYTES;
+        context.salt = (uint8_t *)(pbegin == pend ? pblank : static_cast<const void*>(&pbegin[0]));
+        context.saltlen = (uint32_t)INPUT_BYTES;
+        context.secret = NULL;
+        context.secretlen = 0;
+        context.ad = NULL;
+        context.adlen = 0;
+        context.allocate_cbk = NULL;
+        context.free_cbk = NULL;
+        context.flags = DEFAULT_ARGON2_FLAG;
+        context.m_cost = 8192;
+        context.lanes = 2;
+        context.threads = 1;
+        context.t_cost = 2;
+        context.version = ARGON2_VERSION_13;
+        argon2_ctx( &context, Argon2_d );
+
+        return hash[0];
+}
 
 #endif // BITCOIN_HASH_H

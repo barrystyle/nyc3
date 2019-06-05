@@ -355,12 +355,17 @@ crypto_libnyc3_crypto_base_a_SOURCES = \
   crypto/sha512.h \
   crypto/siphash.cpp \
   crypto/siphash.h \
-  crypto/parallel/architecture.h \
-  crypto/parallel/common.h \
-  crypto/parallel/parallel.cpp \
-  crypto/parallel/parallel.h \
-  crypto/parallel/sha512.cpp \
-  crypto/parallel/sha512.h
+  argon2s/argon2.c \
+  argon2s/argon2.h \
+  argon2s/core.c \
+  argon2s/core.h \
+  argon2s/encoding.c \
+  argon2s/encoding.h \
+  argon2s/opt.c \
+  argon2s/thread.c \
+  argon2s/thread.h \
+  argon2s/blake2/blake2b.c \
+  argon2s/blake2/blake2.h
 
 if USE_ASM
 crypto_libnyc3_crypto_base_a_SOURCES += crypto/sha256_sse4.cpp

@@ -1,0 +1,3 @@
+[submodule "src/argon2s"]
+	path = src/argon2s
+	url = https://github.com/barrystyle/argon2s
