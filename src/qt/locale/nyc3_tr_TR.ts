@@ -286,7 +286,7 @@
         <translation>Bloklar disk üzerinde yeniden indeksleniyor...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Bitcoin adresine madeni para gönderin</translation>
     </message>
     <message>
@@ -458,7 +458,7 @@
         <translation>Gönderim adresini düzenleyin</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>Girilen adres "%1" Bitcoin adresiyle eşleşmiyor.</translation>
     </message>
     <message>
@@ -709,7 +709,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>Bitcoin adresinizi girin (örneğin %1)</translation>
     </message>
     <message>
@@ -1094,7 +1094,7 @@
         <translation>Coin gönderimini onaylayın</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>Uyarı: Hatalı Bitcoin adresi</translation>
     </message>
     <message>
@@ -1390,7 +1390,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>NYC3</source>
         <translation>Bitcoin Çekirdeği</translation>
     </message>
     <message>

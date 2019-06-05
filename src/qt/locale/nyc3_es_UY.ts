@@ -250,7 +250,7 @@
         <translation>Cambiar contraseña</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Enviar monedas a una dirección Bitcoin</translation>
     </message>
     <message>

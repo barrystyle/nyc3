@@ -342,7 +342,7 @@
         <translation>Proxy &lt;b&gt;aktif&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Kirim koin ke alamat Bitcoin</translation>
     </message>
     <message>
