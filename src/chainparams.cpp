@@ -104,10 +104,10 @@ public:
         m_assumed_blockchain_size = 240;
         m_assumed_chain_state_size = 3;
 
-
-        genesis = CreateGenesisBlock(1559208000, 427, 0x1f7ffff0, 1, 0 * COIN);
+        genesis = CreateGenesisBlock(1559745000, 241, 0x1f7ffff0, 1, 0 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x9aa6888178b34fa8895f471e96f3e13b4bd3aabdb9a19e6e773f91c6c34bc63c"));
+
+        assert(consensus.hashGenesisBlock == uint256S("0xe9ec0f63794b078affe2df0ce92ade9026f5f4073a9c3747b4756b8c7c8707ba"));
         assert(genesis.hashMerkleRoot == uint256S("0xdfd0e8579d4f22ce8fb4a7c2e372469d027e2a4954b6a3ef302c698052bdae1f"));
 
         // vSeeds.emplace_back("");
@@ -133,7 +133,7 @@ public:
         };
 
         chainTxData = ChainTxData{
-            /* nTime    */ 1559208000,
+            /* nTime    */ 1559745000,
             /* nTxCount */ 1,
             /* dTxRate  */ 1,
         };
