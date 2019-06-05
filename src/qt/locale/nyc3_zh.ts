@@ -258,7 +258,7 @@
         <translation>启用代理:%1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>发送比特币到一个比特币地址</translation>
     </message>
     <message>
@@ -512,7 +512,7 @@
         <translation>与此地址列表项关联的地址。只能修改为发送地址。</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>输入的地址"%1"不是有效的比特币地址。</translation>
     </message>
     <message>
@@ -726,7 +726,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation><numerusform>估计在%n块内确认。</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>警告：比特币地址无效</translation>
     </message>
     <message>
@@ -749,7 +749,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>这是一个标准的付款方式。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The NYC3 address to send the payment to</source>
         <translation>支付到的比特币地址</translation>
     </message>
     <message>

@@ -314,7 +314,7 @@
         <translation>디스크에서 블럭 불러오는 중</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>비트코인 주소로 코인 보내기</translation>
     </message>
     <message>

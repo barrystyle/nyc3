@@ -322,7 +322,7 @@
         <translation>Endurraða blokkum á drifi...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Senda mynt í Bitcoin færslugildi</translation>
     </message>
     <message>
@@ -630,7 +630,7 @@
         <translation>Breyta sendingarfærslugildi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>Færslugildið sem slegið var inn "%1" er ekki leyfilegt Bitcoin færslugildi.</translation>
     </message>
     </context>

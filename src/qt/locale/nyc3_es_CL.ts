@@ -330,7 +330,7 @@
         <translation>Cargando el index de bloques...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Enviar monedas a una dirección bitcoin</translation>
     </message>
     <message>
@@ -732,7 +732,7 @@
         <translation>Editar dirección de envio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>La dirección introducida "%1" no es una dirección Bitcoin valida.</translation>
     </message>
     <message>
@@ -1303,7 +1303,7 @@
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>Ingresa una dirección de Bitcoin (Ejemplo: %1)</translation>
     </message>
     <message>
@@ -2030,7 +2030,7 @@
         <translation>Solicitud de pago expirada</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>Peligro: Dirección de Bitcoin inválida</translation>
     </message>
     <message>
@@ -2073,7 +2073,7 @@
         <translation>Este es un pago normal</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The NYC3 address to send the payment to</source>
         <translation>Dirección Bitcoin a enviar el pago</translation>
     </message>
     <message>
@@ -2154,7 +2154,7 @@
         <translation>&amp;Firmar Mensaje</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The NYC3 address to sign the message with</source>
         <translation>Dirección Bitcoin con la que firmar el mensaje</translation>
     </message>
     <message>
@@ -2186,7 +2186,7 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>Firmar un mensjage para probar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -2206,11 +2206,11 @@
         <translation>&amp;Firmar Mensaje</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The NYC3 address the message was signed with</source>
         <translation>La dirección Bitcoin con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
         <translation>Verifica el mensaje para asegurar que fue firmado con la dirección de Bitcoin especificada.</translation>
     </message>
     <message>
@@ -2818,7 +2818,7 @@
         <translation>No se ha podido iniciar el servidor HTTP. Ver debug log para detalles.</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
+        <source>NYC3</source>
         <translation>bitcoin core</translation>
     </message>
     <message>

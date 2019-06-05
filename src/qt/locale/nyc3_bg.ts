@@ -334,7 +334,7 @@
         <translation>Повторно индексиране на блоковете на диска...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Изпращане към Биткоин адрес</translation>
     </message>
     <message>
@@ -718,7 +718,7 @@
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>"%1" не е валиден Биткоин адрес.</translation>
     </message>
     <message>
@@ -1160,7 +1160,7 @@
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>Въведете Биткойн адрес (например: %1)</translation>
     </message>
     <message>
@@ -1701,7 +1701,7 @@
         <translation>Заявката за плащане е изтекла.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>Внимание: Невалиден Биткойн адрес</translation>
     </message>
     <message>
@@ -1821,7 +1821,7 @@
         <translation>Копиране на текущия подпис</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
     </message>
     <message>
@@ -1837,7 +1837,7 @@
         <translation>&amp;Провери</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
     </message>
     <message>
@@ -2329,7 +2329,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>NYC3</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>

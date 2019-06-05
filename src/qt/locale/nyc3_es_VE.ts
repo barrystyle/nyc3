@@ -208,7 +208,7 @@
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Enviar monedas a una dirección Bitcoin</translation>
     </message>
     <message>
@@ -777,8 +777,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>Information</source>

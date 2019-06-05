@@ -330,7 +330,7 @@
         <translation>Reindicizzazione dei blocchi sul disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Invia monete ad un indirizzo Bitcoin...</translation>
     </message>
     <message>
@@ -686,7 +686,7 @@
         <translation>Modifica l'indirizzo di invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>L'indirizzo inserito "%1" non è un indirizzo Bitcoin valido.</translation>
     </message>
     <message>

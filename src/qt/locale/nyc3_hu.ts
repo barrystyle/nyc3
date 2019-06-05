@@ -327,7 +327,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Bitcoin küldése megadott címre</translation>
     </message>
     <message>
@@ -731,7 +731,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Küldő cím szerkesztése</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>A megadott "%1" cím nem egy érvényes Bitcoin-cím.</translation>
     </message>
     <message>
@@ -1255,7 +1255,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Érvénytelen fizetési cím %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid NYC3 address or malformed URI parameters.</source>
         <translation>Nem sikerült az URI elemzése! Ezt okozhatja érvénytelen Bitcoin cím, vagy rossz URI paraméterezés.</translation>
     </message>
     <message>
@@ -1353,7 +1353,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>Ad meg egy Bitcoin címet (pl: %1)</translation>
     </message>
     <message>
@@ -2142,7 +2142,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A fizetési kérelem lejárt.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>Figyelmeztetés: Érvénytelen Bitcoin cím</translation>
     </message>
     <message>
@@ -2185,7 +2185,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Ez normál fizetés.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The NYC3 address to send the payment to</source>
         <translation>Erre a Bitcoin címre küldje az összeget</translation>
     </message>
     <message>
@@ -2270,7 +2270,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet aláírása...</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The NYC3 address to sign the message with</source>
         <translation>Bitcoin cím, amivel alá kívánja írni az üzenetet</translation>
     </message>
     <message>
@@ -2302,7 +2302,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -2318,11 +2318,11 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet ellenőrzése</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The NYC3 address the message was signed with</source>
         <translation>Bitcoin cím, amivel aláírta az üzenetet</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
         <translation>Ellenőrizze az üzenetet, hogy valóban a megjelölt Bitcoin címmel van-e aláírva</translation>
     </message>
     <message>
@@ -2870,8 +2870,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>HTTP szerver indítása sikertelen. A részleteket lásd: debug log.</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>The %s developers</source>

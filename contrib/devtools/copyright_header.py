@@ -90,7 +90,7 @@ def compile_copyright_regex(copyright_style, year_style, name):
 EXPECTED_HOLDER_NAMES = [
     "Satoshi Nakamoto\n",
     "The Bitcoin Core developers\n",
-    "Bitcoin Core Developers\n",
+    "NYC3 Developers\n",
     "BitPay Inc\.\n",
     "University of Illinois at Urbana-Champaign\.\n",
     "Pieter Wuille\n",

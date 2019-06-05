@@ -306,7 +306,7 @@
         <translation>வட்டில் தொகுதிகளை மறுஇயக்குகிறது ...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>ஒரு விக்கிபீடியா முகவரிக்கு நாணயங்களை அனுப்பவும்</translation>
     </message>
     <message>
@@ -1192,7 +1192,7 @@
         <translation>கட்டண கோரிக்கையை செயல்படுத்த முடியவில்லை, ஏனெனில் BIP70 ஆதரவு தொகுக்கப்படவில்லை.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid NYC3 address or malformed URI parameters.</source>
         <translation>URI அலச முடியாது! தவறான பிட்கின் முகவரி அல்லது தவறான URI அளவுருக்கள் காரணமாக இது ஏற்படலாம்.</translation>
     </message>
     <message>
@@ -2131,7 +2131,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>NYC3</source>
         <translation>Bitcoin மையம்</translation>
     </message>
     <message>

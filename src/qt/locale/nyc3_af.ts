@@ -322,7 +322,7 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Stuur munte na 'n Bitcoin adres</translation>
     </message>
     <message>
@@ -694,7 +694,7 @@
         <translation>Wysig stuur adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>Die ingevoerde adres "%1" is nie 'n geldige Bitcoin adres nie.</translation>
     </message>
     <message>
@@ -1120,7 +1120,7 @@
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>Voer in 'n Bitcoin adres (bv. %1)</translation>
     </message>
     <message>
@@ -1697,7 +1697,7 @@ transaksievertragingsrisiko.</translation>
         <translation>Betalings versoek verstryk.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>Waarskuwing: Ongeldige Bitcoinadres</translation>
     </message>
     <message>
@@ -1730,7 +1730,7 @@ Is u seker?</translation>
         <translation>Hierdie is 'n gewone betaling</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The NYC3 address to send the payment to</source>
         <translation>Die Bitcoinadres waarheen die betaling gestuur word</translation>
     </message>
     <message>
@@ -2039,7 +2039,7 @@ word die fooi eweredig verdeel.</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>NYC3</source>
         <translation>Bitcoin Kern</translation>
     </message>
     <message>

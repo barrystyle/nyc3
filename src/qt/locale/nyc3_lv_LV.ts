@@ -202,7 +202,7 @@
         <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Nosūtīt bitkoinus uz Bitcoin adresi</translation>
     </message>
     <message>
@@ -1091,7 +1091,7 @@
         <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Bitcoin adreses īpašnieks.</translation>
     </message>
     <message>
@@ -1187,8 +1187,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>Error loading block database</source>

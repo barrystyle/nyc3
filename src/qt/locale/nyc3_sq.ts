@@ -787,7 +787,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>NYC3</source>
         <translation>Berthama Bitcoin</translation>
     </message>
     <message>

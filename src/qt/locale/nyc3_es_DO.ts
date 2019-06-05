@@ -234,7 +234,7 @@
         <translation>Reindexando bloques en disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Enviar monedas a una dirección Bitcoin</translation>
     </message>
     <message>
@@ -1111,7 +1111,7 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>Firmar el mensaje para demostrar que se posee esta dirección Bitcoin</translation>
     </message>
     <message>
@@ -1131,7 +1131,7 @@
         <translation>&amp;Verificar mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
         <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Bitcoin indicada</translation>
     </message>
     <message>
@@ -1211,7 +1211,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>NYC3</source>
         <translation>Núcleo de Bitcoin</translation>
     </message>
     <message>

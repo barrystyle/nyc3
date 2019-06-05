@@ -343,7 +343,7 @@ Var vänlig och försök igen.</translation>
         <translation>Proxy är &lt;b&gt; aktiverad &lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Skicka bitcoin till en Bitcoin-adress</translation>
     </message>
     <message>
@@ -805,7 +805,7 @@ Var vänlig och försök igen.</translation>
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>Den angivna adressen "%1" är inte en giltig Bitcoin-adress.</translation>
     </message>
     <message>
@@ -1389,7 +1389,7 @@ Var vänlig och försök igen.</translation>
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid NYC3 address or malformed URI parameters.</source>
         <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig Bitcoin-adress eller felaktiga URI-parametrar.</translation>
     </message>
     <message>
@@ -1491,7 +1491,7 @@ Var vänlig och försök igen.</translation>
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>Ange en Bitcoin-adress (t.ex. %1)</translation>
     </message>
     <message>
@@ -2356,7 +2356,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>Varning: Ogiltig Bitcoin-adress</translation>
     </message>
     <message>
@@ -2399,7 +2399,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Detta är en normal betalning.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The NYC3 address to send the payment to</source>
         <translation>Bitcoin-adress att sända betalning till</translation>
     </message>
     <message>
@@ -2496,7 +2496,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot bitcoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The NYC3 address to sign the message with</source>
         <translation>Bitcoin-adress att signera meddelandet med</translation>
     </message>
     <message>
@@ -2528,7 +2528,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna Bitcoin-adress</translation>
     </message>
     <message>
@@ -2552,11 +2552,11 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ange mottagarens adress, meddelande (kopiera radbrytningar, mellanslag, TAB-tecken, osv. exakt) och signatur nedan, för att verifiera meddelandet. Undvik att läsa in mera information i signaturen än vad som stod i själva det signerade meddelandet, för att undvika ett man-in-the-middle-angrepp. Notera att detta endast bevisar att den signerande parten tar emot med adressen, det bevisar inte vem som skickat transaktionen!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The NYC3 address the message was signed with</source>
         <translation>Bitcoin-adress som meddelandet signerades med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
         <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven Bitcoin-adress</translation>
     </message>
     <message>
@@ -3220,8 +3220,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Kunde inte starta HTTP-server. Se avlusningsloggen för detaljer.</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>The %s developers</source>

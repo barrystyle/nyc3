@@ -338,7 +338,7 @@
         <translation>Le proxy est &lt;b&gt;activé&lt;/b&gt; : %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Envoyer des pièces à une adresse Bitcoin</translation>
     </message>
     <message>
@@ -744,7 +744,7 @@
         <translation>Éditer l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>L'adresse entrée "%1" n'est pas une adresse Bitcoin valide.</translation>
     </message>
     <message>
@@ -1110,7 +1110,7 @@
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>Entrer une adresse Bitcoin (e.g. %1)</translation>
     </message>
     <message>
@@ -1671,7 +1671,7 @@
         <translation>Demande de paiement expirée.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>Attention: Adresse Bitcoin Invalide</translation>
     </message>
     <message>
@@ -2235,8 +2235,8 @@
         <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>Importing...</source>

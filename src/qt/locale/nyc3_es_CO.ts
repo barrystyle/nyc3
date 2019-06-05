@@ -307,7 +307,7 @@ Exportar los datos en la pestaña actual a un archivo</translation>
         <translation>Reindexando bloques en el disco ...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Enviando monedas a una dirección de Bitcoin</translation>
     </message>
     <message>
@@ -1109,7 +1109,7 @@ Exportar los datos en la pestaña actual a un archivo</translation>
         <translation>Manejo de URI</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid NYC3 address or malformed URI parameters.</source>
         <translation>¡URI no puede ser analizado! Esto puede deberse a una dirección de Bitcoin no válida o a parámetros de URI mal formados.</translation>
     </message>
     <message>
@@ -1878,8 +1878,8 @@ Exportar los datos en la pestaña actual a un archivo</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>

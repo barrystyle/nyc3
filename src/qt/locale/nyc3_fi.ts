@@ -342,7 +342,7 @@
         <translation>Välipalvelin on &lt;b&gt;käytössä&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Lähetä kolikoita Bitcoin-osoitteeseen</translation>
     </message>
     <message>
@@ -768,7 +768,7 @@
         <translation>Muokkaa lähettävää osoitetta</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>Antamasi osoite "%1" ei ole kelvollinen Bitcoin-osoite.</translation>
     </message>
     <message>
@@ -1340,7 +1340,7 @@
         <translation>Virheellinen maksuosoite %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid NYC3 address or malformed URI parameters.</source>
         <translation>URIa ei voitu jäsentää! Tämä voi johtua virheellisestä Bitcoin-osoitteesta tai väärin muotoilluista URI parametreista.</translation>
     </message>
     <message>
@@ -1442,7 +1442,7 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>Syötä Bitcoin-osoite (esim. %1)</translation>
     </message>
     <message>
@@ -2279,7 +2279,7 @@
         <translation><numerusform>Vahvistuminen alkaa arviolta %n lohkon sisällä.</numerusform><numerusform>Vahvistuminen alkaa arviolta %n lohkon sisällä.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>Varoitus: Virheellinen Bitcoin-osoite </translation>
     </message>
     <message>
@@ -2322,7 +2322,7 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The NYC3 address to send the payment to</source>
         <translation>Bitcoin-osoite johon maksu lähetetään</translation>
     </message>
     <message>
@@ -2419,7 +2419,7 @@
         <translation>Voit allekirjoittaa viestit / sopimukset omalla osoitteellasi todistaaksesi että voit vastaanottaa siihen lähetetyt bitcoinit. Varo allekirjoittamasta mitään epämääräistä, sillä phishing-hyökkääjät voivat huijata sinua luovuttamaan henkilöllisyytesi allekirjoituksella. Allekirjoita ainoastaan täysin yksityiskohtainen selvitys siitä, mihin olet sitoutumassa.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The NYC3 address to sign the message with</source>
         <translation>Bitcoin-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
@@ -2451,7 +2451,7 @@
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Bitcoin-osoitteen</translation>
     </message>
     <message>
@@ -2475,11 +2475,11 @@
         <translation>Syötä vastaanottajan osoite, viesti ja allekirjoitus (varmista että kopioit rivinvaihdot, välilyönnit, sarkaimet yms. täsmälleen) alle vahvistaaksesi viestin. Varo lukemasta allekirjoitukseen enempää kuin mitä viestissä itsessään on välttääksesi man-in-the-middle -hyökkäyksiltä. Huomaa, että tämä todentaa ainoastaan allekirjoittavan vastaanottajan osoitteen, tämä ei voi todentaa minkään tapahtuman lähettäjää!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The NYC3 address the message was signed with</source>
         <translation>Bitcoin-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
         <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Bitcoin-osoitteella</translation>
     </message>
     <message>
@@ -3127,7 +3127,7 @@
         <translation>HTTP-palvelinta ei voitu käynnistää. Katso debug-lokista lisätietoja.</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
+        <source>NYC3</source>
         <translation>Bitcoin-ydin</translation>
     </message>
     <message>

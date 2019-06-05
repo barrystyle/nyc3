@@ -342,7 +342,7 @@
         <translation>プロキシは&lt;b&gt;有効&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Bitcoin アドレスにコインを送る</translation>
     </message>
     <message>
@@ -804,7 +804,7 @@
         <translation>送金先アドレスを編集</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>入力されたアドレス "%1" は無効な Bitcoin アドレスです。</translation>
     </message>
     <message>
@@ -1392,7 +1392,7 @@
         <translation>支払い先アドレス「 %1 」は無効です</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid NYC3 address or malformed URI parameters.</source>
         <translation>URIを解析できませんでした！ Bitcoin アドレスが無効であるか、URIパラメーターが不正な形式である可能性があります。</translation>
     </message>
     <message>
@@ -1494,7 +1494,7 @@
         <translation>金額</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>Bitcoin アドレスを入力してください (例: %1)</translation>
     </message>
     <message>
@@ -2379,7 +2379,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation><numerusform>予想される承認開始ブロック: %n ブロック以内</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>警告: 無効な Bitcoin アドレス</translation>
     </message>
     <message>
@@ -2422,7 +2422,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>これは通常の支払いです。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The NYC3 address to send the payment to</source>
         <translation>支払い先 Bitcoin アドレス</translation>
     </message>
     <message>
@@ -2519,7 +2519,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>あなたが所有しているアドレスでメッセージや契約書に署名をすることで、それらのアドレスへ送られた Bitcoin を受け取ることができることを証明できます。フィッシング攻撃者があなたを騙して、あなたの身分情報に署名させようとしている可能性があるため、よくわからないものやランダムな文字列に対して署名しないでください。あなたが同意した、よく詳細の記された文言にのみ署名するようにしてください。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The NYC3 address to sign the message with</source>
         <translation>メッセージの署名に使用する Bitcoin アドレス</translation>
     </message>
     <message>
@@ -2551,7 +2551,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>この署名をシステムのクリップボードにコピー</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>メッセージに署名してこの Bitcoin アドレスを所有していることを証明</translation>
     </message>
     <message>
@@ -2575,11 +2575,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>送金先のアドレスと、メッセージ（改行やスペース、タブなども完全に一致させること）および署名を以下に入力し、メッセージを検証します。中間者攻撃により騙されるのを防ぐため、署名対象のメッセージから書かれていること以上の意味を読み取ろうとしないでください。また、これは署名作成者がこのアドレスで受け取れることを証明するだけであり、取引の送信権限を証明するものではありません！</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The NYC3 address the message was signed with</source>
         <translation>メッセージの署名に使われた Bitcoin アドレス</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
         <translation>メッセージを検証して指定された Bitcoin アドレスで署名されたことを確認</translation>
     </message>
     <message>
@@ -3247,7 +3247,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>HTTPサーバを開始できませんでした。詳細は debug.log を参照してください。</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
+        <source>NYC3</source>
         <translation>Bitcoin コア</translation>
     </message>
     <message>

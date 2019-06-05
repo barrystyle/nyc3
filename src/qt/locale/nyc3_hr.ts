@@ -338,7 +338,7 @@
         <translation>Proxy je &lt;b&gt;uključen&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Pošaljite novac na Bitcoin adresu</translation>
     </message>
     <message>
@@ -747,7 +747,7 @@
         <translation>Uredi adresu za slanje</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>Upisana adresa "%1" nije valjana Bitcoin adresa.</translation>
     </message>
     <message>
@@ -1315,7 +1315,7 @@
         <translation>Nevažeća adresa za plaćanje %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid NYC3 address or malformed URI parameters.</source>
         <translation>Ne može se parsirati URI! Uzrok tomu može biti nevažeća Bitcoin adresa ili neispravni parametri kod URI-a.</translation>
     </message>
     <message>
@@ -1417,7 +1417,7 @@
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>Unesite Bitcoin adresu (npr. %1)</translation>
     </message>
     <message>
@@ -2278,7 +2278,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation><numerusform>Procijenjeno je da će početi potvrđivanje unutar %n bloka.</numerusform><numerusform>Procijenjeno je da će početi potvrđivanje unutar %n bloka.</numerusform><numerusform>Procijenjeno je da će početi potvrđivanje unutar %n blokova.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>Upozorenje: Nevažeća Bitcoin adresa</translation>
     </message>
     <message>
@@ -2321,7 +2321,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation>Ovo je normalna uplata.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The NYC3 address to send the payment to</source>
         <translation>Bitcoin adresa na koju ćete poslati uplatu</translation>
     </message>
     <message>
@@ -2418,7 +2418,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation>Možete potpisati poruke/dogovore svojim adresama kako biste dokazali da možete pristupiti bitcoinima poslanim na te adrese. Budite oprezni da ne potpisujte ništa nejasno ili nasumično, jer napadi phishingom vas mogu prevariti da prepišite svoj identitet njima. Potpisujte samo detaljno objašnjene izjave s kojima se slažete.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The NYC3 address to sign the message with</source>
         <translation>Bitcoin adresa pomoću koje ćete potpisati poruku</translation>
     </message>
     <message>
@@ -2450,7 +2450,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation>Kopirajte trenutni potpis u međuspremnik</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>Potpišite poruku kako biste dokazali da posjedujete ovu Bitcoin adresu</translation>
     </message>
     <message>
@@ -2474,11 +2474,11 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation>Unesite primateljevu adresu, poruku (provjerite da kopirate prekide crta, razmake, tabove, itd. točno) i potpis ispod da provjerite poruku. Pazite da ne pridodate veće značenje potpisu nego što je sadržano u samoj poruci kako biste izbjegli napad posrednika (MITM attack). Primijetite da ovo samo dokazuje da stranka koja potpisuje prima na adresu. Ne može dokažati da je neka stranka poslala transakciju!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The NYC3 address the message was signed with</source>
         <translation>Bitcoin adresa kojom je poruka potpisana</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
         <translation>Provjerite poruku da budete sigurni da je potpisana zadanom Bitcoin adresom</translation>
     </message>
     <message>
@@ -3134,8 +3134,8 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation>Ne može se pokrenuti HTTP server. Vidite debug.log za više detalja.</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>The %s developers</source>

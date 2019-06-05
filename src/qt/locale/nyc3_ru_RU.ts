@@ -342,7 +342,7 @@
         <translation>Прокси &lt;b&gt;включен&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Послать средства на биткойн адрес</translation>
     </message>
     <message>
@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin Core</translation>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -804,7 +804,7 @@
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>Введенный адрес "%1" не является действительным адресом Bitcoin.</translation>
     </message>
     <message>
@@ -902,7 +902,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin Core</translation>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -1396,7 +1396,7 @@
         <translation>Неверный адрес %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid NYC3 address or malformed URI parameters.</source>
         <translation>Не удалось обработать идентификатор! Это может быть связано с неверным Bitcoin-адресом или неправильными параметрами идентификатора.</translation>
     </message>
     <message>
@@ -1498,7 +1498,7 @@
         <translation>Количество</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>Введите биткоин-адрес (напр. %1)</translation>
     </message>
     <message>
@@ -2375,7 +2375,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Истекло время ожидания запроса платежа</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>Предупреждение: Неверный Bitcoin адрес</translation>
     </message>
     <message>
@@ -2418,7 +2418,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Это нормальный платёж.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The NYC3 address to send the payment to</source>
         <translation>Bitcoin-адрес, на который отправить платёж</translation>
     </message>
     <message>
@@ -2515,7 +2515,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Вы можете подписывать сообщения/соглашения своими адресами, чтобы доказать свою возможность получать биткоины на них. Будьте осторожны, не подписывайте что-то неопределённое или случайное, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The NYC3 address to sign the message with</source>
         <translation>Bitcoin-адрес, которым подписать сообщение</translation>
     </message>
     <message>
@@ -2547,7 +2547,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Скопировать текущую подпись в буфер обмена системы</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>Подписать сообщение, чтобы доказать владение Bitcoin-адресом</translation>
     </message>
     <message>
@@ -2571,11 +2571,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Введите ниже адрес получателя, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, по сравнению с самим подписываемым сообщением, чтобы не стать жертвой атаки "man-in-the-middle". Заметьте, что эта операция удостоверяет лишь авторство подписавшего, но не может удостоверить отправителя транзакции.</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The NYC3 address the message was signed with</source>
         <translation>Bitcoin-адрес, которым было подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
         <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным Bitcoin-адресом</translation>
     </message>
     <message>
@@ -3239,8 +3239,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Невозможно запустить HTTP-сервер. Для получения более детальной информации необходимо обратиться к журналу отладки.</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>The %s developers</source>

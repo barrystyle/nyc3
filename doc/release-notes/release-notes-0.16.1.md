@@ -1,4 +1,4 @@
-Bitcoin Core version 0.16.1 is now available from:
+NYC3 version 0.16.1 is now available from:
 
   <https://bitcoincore.org/bin/bitcoin-core-0.16.1/>
 
@@ -40,10 +40,10 @@ wallets that were created with older versions are not affected by this.
 Compatibility
 ==============
 
-Bitcoin Core is extensively tested on multiple operating systems using
+NYC3 is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later. Windows XP is not supported.
 
-Bitcoin Core should also work on most other Unix-like systems but is not
+NYC3 should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable changes

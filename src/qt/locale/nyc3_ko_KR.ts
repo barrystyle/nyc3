@@ -342,7 +342,7 @@
         <translation>프록시가 &lt;b&gt;활성화&lt;/b&gt; 되었습니다: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>비트코인 주소로 코인을 전송합니다</translation>
     </message>
     <message>
@@ -804,7 +804,7 @@
         <translation>보내는 주소 편집</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>입력한 "%1" 주소는 올바른 비트코인 주소가 아닙니다.</translation>
     </message>
     <message>
@@ -1396,7 +1396,7 @@
         <translation>잘못된 지불 주소 %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid NYC3 address or malformed URI parameters.</source>
         <translation>URI의 파싱에 문제가 발생했습니다. 잘못된 비트코인 주소나 URI 파라미터 구성에 오류가 존재할 수 있습니다.</translation>
     </message>
     <message>
@@ -1498,7 +1498,7 @@
         <translation>금액</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>비트코인 주소를 입력하세요 (예. %1)</translation>
     </message>
     <message>
@@ -2383,7 +2383,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation><numerusform>%n 블록 안에 승인이 시작될 것으로 추정됩니다.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>경고: 잘못된 비트코인주소입니다</translation>
     </message>
     <message>
@@ -2426,7 +2426,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>이것은 정상적인 지불입니다.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The NYC3 address to send the payment to</source>
         <translation>이 비트코인 주소로 송금됩니다</translation>
     </message>
     <message>
@@ -2523,7 +2523,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>당신이 해당 주소로 비트코인을 받을 수 있다는 것을 증명하기 위해 메시지/합의문을 그 주소로 서명할 수 있습니다. 피싱 공격이 당신을 속일 수 있으므로 임의의 내용이나 모호한 내용에 서명하지 않도록 주의하세요. 당신이 동의하는 명확한 조항들에만 서명하세요.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The NYC3 address to sign the message with</source>
         <translation>메세지를 서명할 비트코인 주소</translation>
     </message>
     <message>
@@ -2555,7 +2555,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>이 서명을 시스템 클립보드로 복사</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>당신이 이 비트코인 주소를 소유한다는 증명을 위해 메시지를 서명합니다</translation>
     </message>
     <message>
@@ -2579,11 +2579,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>메시지를 검증하기 위해 아래 칸에 각각 지갑 주소와 메시지, 서명을 입력하세요 (메시지 원본의 띄어쓰기, 들여쓰기, 행 나눔 등이 정확하게 입력되어야 하므로 원본을 복사해서 입력하세요). 네트워크 침입자의 속임수에 넘어가지 않도록 서명된 메시지 내용 이외의 내용은 참고하지 않도록 유의하세요. 이 기능은 단순히 서명한 쪽에서 해당 주소로 송금을 받을 수 있다는 것을 증명하는 것 뿐이며 그 이상은 어떤 것도 보증하지 않습니다.</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The NYC3 address the message was signed with</source>
         <translation>메세지의 서명에 사용된 비트코인 주소</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
         <translation>입력된 비트코인 주소로 메시지가 서명되었는지 검증합니다</translation>
     </message>
     <message>
@@ -3251,7 +3251,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>HTTP 서버를 시작할 수 없습니다. 자세한 사항은 디버그 로그를 확인 하세요.</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
+        <source>NYC3</source>
         <translation>비트코인 코어</translation>
     </message>
     <message>

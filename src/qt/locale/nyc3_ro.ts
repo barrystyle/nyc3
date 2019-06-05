@@ -298,7 +298,7 @@
         <translation>Click pentru a permite, din nou, activitate rețelei.</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Trimite monedele către o adresă Bitcoin</translation>
     </message>
     <message>
@@ -1271,8 +1271,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>Upgrading UTXO database</source>

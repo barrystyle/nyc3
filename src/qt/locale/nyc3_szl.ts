@@ -338,7 +338,7 @@
         <translation>Proxy je &lt;b&gt;zapuszczone&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Poślij mōnety na adresã Bitcoin</translation>
     </message>
     <message>
@@ -748,7 +748,7 @@
         <translation>Edytuj adresã posyłaniŏ</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>Wkludzōnŏ adresa "%1" niyma nŏleżnōm adresōm Bitcoin.</translation>
     </message>
     <message>
@@ -1218,7 +1218,7 @@
         <translation>Kwota</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>Wkludź adresã Bitcoin (bp. %1)</translation>
     </message>
     <message>
@@ -1643,7 +1643,7 @@
         <translation>Utworzynie transakcyje niy podarziło sie!</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>Pozōr: niynŏleżnŏ adresa Bitcoin</translation>
     </message>
     <message>
@@ -1666,7 +1666,7 @@
         <translation>To je normalny płat.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The NYC3 address to send the payment to</source>
         <translation>Adresa Bitcoin, na kerõ chcesz posłać płat</translation>
     </message>
     <message>
@@ -1955,8 +1955,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>The %s developers</source>

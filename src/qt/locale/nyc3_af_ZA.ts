@@ -326,7 +326,7 @@
         <translation>Herindekseer blokke op skyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Stuur muntstukke na 'n Bitcoin adres</translation>
     </message>
     <message>
@@ -718,7 +718,7 @@
         <translation>Wysig stuurende adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>Die ingeskrewe adres "%1" is nie 'n geldige Bitcoin adres nie.</translation>
     </message>
     <message>

@@ -310,7 +310,7 @@
         <translation>დისკზე ბლოკების რეინდექსაცია...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>მონეტების გაგზავნა Bitcoin-მისამართზე</translation>
     </message>
     <message>
@@ -1391,7 +1391,7 @@
         <translation>მიმდინარე ხელმოწერის კოპირება კლიპბორდში</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>მოაწერეთ ხელი იმის დასადასტურებლად, რომ ეს მისამართი თქვენია</translation>
     </message>
     <message>
@@ -1411,7 +1411,7 @@
         <translation>მესიჯის &amp;ვერიფიკაცია</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
         <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Bitcoin-მისამართით</translation>
     </message>
     <message>
@@ -1511,8 +1511,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

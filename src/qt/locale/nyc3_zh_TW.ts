@@ -342,7 +342,7 @@
         <translation>代理伺服器&lt;b&gt;已經啟用&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>付錢給一個 Bitcoin 位址</translation>
     </message>
     <message>
@@ -788,7 +788,7 @@
         <translation>編輯付款位址</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid NYC3 address.</source>
         <translation>輸入的位址 %1 並不是有效的 Bitcoin 位址。</translation>
     </message>
     <message>
@@ -1364,7 +1364,7 @@
         <translation>無效的付款位址 %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid NYC3 address or malformed URI parameters.</source>
         <translation>沒辦法解析 URI 位址！可能是因為 Bitcoin 位址無效，或是 URI 參數格式錯誤。</translation>
     </message>
     <message>
@@ -1466,7 +1466,7 @@
         <translation>金額</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a NYC3 address (e.g. %1)</source>
         <translation>輸入 Bitcoin 位址 (比如說 %1)</translation>
     </message>
     <message>
@@ -2331,7 +2331,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>付款的要求過期了。</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid NYC3 address</source>
         <translation>警告: Bitcoin 位址無效</translation>
     </message>
     <message>
@@ -2374,7 +2374,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>這是一筆正常的付款。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The NYC3 address to send the payment to</source>
         <translation>接收付款的 Bitcoin 位址</translation>
     </message>
     <message>
@@ -2471,7 +2471,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>你可以用自己的位址簽署訊息或合約，來證明你可以從該位址收款。但是請小心，不要簽署語意含糊不清，或隨機產生的內容，因為釣魚式詐騙可能會用騙你簽署的手法來冒充是你。只有在語句中的細節你都同意時才簽署。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The NYC3 address to sign the message with</source>
         <translation>用來簽署訊息的 Bitcoin 位址</translation>
     </message>
     <message>
@@ -2503,7 +2503,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>複製目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this NYC3 address</source>
         <translation>簽署這個訊息來證明這個 Bitcoin 位址是你的</translation>
     </message>
     <message>
@@ -2527,11 +2527,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>請在下面輸入收款人的位址，訊息(請確定完整複製了所包含的換行，空格，跳位符號等等)，以及簽章，來驗證這個訊息。請小心，除了訊息內容以外，不要對簽章本身過度解讀，以避免被用「中間人攻擊法」詐騙。請注意，通過驗證的簽章只能證明簽章人確實可以從該位址收款，不能證明任何交易中的付款人身份！</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The NYC3 address the message was signed with</source>
         <translation>簽署這個訊息的 Bitcoin 位址</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
         <translation>驗證這個訊息來確定是用指定的 Bitcoin 位址簽署的</translation>
     </message>
     <message>
@@ -3199,8 +3199,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>無法啟動 HTTP 伺服器。詳情請看除錯紀錄。</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>The %s developers</source>

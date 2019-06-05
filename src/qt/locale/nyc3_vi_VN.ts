@@ -319,7 +319,7 @@ Ví của bạn chưa được mã hóa.</translation>
         <translation>Đánh chỉ số (indexing) lại các khối (blocks) trên ổ đĩa ...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Gửi coins đến tài khoản Bitcoin</translation>
     </message>
     <message>
@@ -1182,8 +1182,8 @@ Ví của bạn chưa được mã hóa.</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>Information</source>

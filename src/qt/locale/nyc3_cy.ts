@@ -318,7 +318,7 @@
         <translation>Ailfynegi y blociau ar ddisg...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a NYC3 address</source>
         <translation>Anfon arian i gyfeiriad Bitcoin</translation>
     </message>
     <message>
@@ -1025,7 +1025,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>NYC3</source>
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
