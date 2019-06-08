@@ -66,11 +66,11 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones de Bitcoin para recibir pagos. Siempre revise el monto y la dirección de envío antes de enviar criptomonedas.</translation>
+        <source>These are your NYC3 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones de NYC3 para recibir pagos. Siempre revise el monto y la dirección de envío antes de enviar criptomonedas.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your NYC3 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Estas son tus direcciones para recibir pagos. Es recomendable utilizar una nueva dirección para cada transacción.</translation>
     </message>
     <message>
@@ -354,8 +354,8 @@
         <translation>Verificar mensaje....</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -378,12 +378,12 @@
         <translation>Cifrar las claves privadas de su monedero</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your NYC3 addresses to prove you own them</source>
         <translation>Firmar un mensaje para provar que usted es dueño de esta dirección</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Bitcoin concretas</translation>
+        <source>Verify messages to ensure they were signed with specified NYC3 addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones NYC3 concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -422,8 +422,8 @@
         <translation>&amp;Opciones de linea de comando</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n conexión activa hacia la red Bitcoin</numerusform><numerusform>%n conexiones activas hacia la red Bitcoin</numerusform></translation>
+        <source>%n active connection(s) to NYC3 network</source>
+        <translation><numerusform>%n conexión activa hacia la red NYC3</numerusform><numerusform>%n conexiones activas hacia la red NYC3</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -466,8 +466,8 @@
         <translation>Actualizado</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Mostrar el mensaje de ayuda %1 para obtener una lista de los posibles comandos de Bitcoin</translation>
+        <source>Show the %1 help message to get a list with possible NYC3 command-line options</source>
+        <translation>Mostrar el mensaje de ayuda %1 para obtener una lista de los posibles comandos de NYC3</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -541,8 +541,8 @@
         <translation>La billetera esta &lt;b&gt;codificada&lt;/b&gt; y actualmente &lt;b&gt;bloqueda&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ha ocurrido un error fatal. Bitcoin no puede seguir seguro y se cerrará.</translation>
+        <source>A fatal error occurred. NYC3 can no longer continue safely and will quit.</source>
+        <translation>Ha ocurrido un error fatal. NYC3 no puede seguir seguro y se cerrará.</translation>
     </message>
 </context>
 <context>
@@ -733,7 +733,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid NYC3 address.</source>
-        <translation>La dirección introducida "%1" no es una dirección Bitcoin valida.</translation>
+        <translation>La dirección introducida "%1" no es una dirección NYC3 valida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -817,8 +817,8 @@
         <translation>usar un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -829,8 +829,8 @@
         <translation>Aproximadamente %1 GB de información será almacenado en este directorio.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 descargará y almacenará una copia del blockchain de Bitcoin.</translation>
+        <source>%1 will download and store a copy of the NYC3 block chain.</source>
+        <translation>%1 descargará y almacenará una copia del blockchain de NYC3.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1002,8 +1002,8 @@
         <translation>Gastar cambio sin confirmar</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abre automáticamente el puerto del cliente Bitcoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+        <source>Automatically open the NYC3 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automáticamente el puerto del cliente NYC3 en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1014,8 +1014,8 @@
         <translation>Aceptar conexiones externas.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar a la red de Bitcoin a través de un proxy SOCKS5</translation>
+        <source>Connect to the NYC3 network through a SOCKS5 proxy.</source>
+        <translation>Conectar a la red de NYC3 a través de un proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1046,8 +1046,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Conectar a la red de Bitcoin a través de un proxy SOCKS5 diferente para los servicios anónimos de Tor.</translation>
+        <source>Connect to the NYC3 network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Conectar a la red de NYC3 a través de un proxy SOCKS5 diferente para los servicios anónimos de Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1146,8 +1146,8 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información entregada puede estar desactualizada. Tu billetera se sincroniza automáticamente con la red de Bitcoin después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NYC3 network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información entregada puede estar desactualizada. Tu billetera se sincroniza automáticamente con la red de NYC3 después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1304,7 +1304,7 @@
     </message>
     <message>
         <source>Enter a NYC3 address (e.g. %1)</source>
-        <translation>Ingresa una dirección de Bitcoin (Ejemplo: %1)</translation>
+        <translation>Ingresa una dirección de NYC3 (Ejemplo: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1684,8 +1684,8 @@
         <translation>&amp;mensaje</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Mensaje opcional adjunto a la solicitud de pago, que será mostrado cuando la solicitud sea abierta. Nota: Este mensaje no será enviado con el pago a través de la red Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NYC3 network.</source>
+        <translation>Mensaje opcional adjunto a la solicitud de pago, que será mostrado cuando la solicitud sea abierta. Nota: Este mensaje no será enviado con el pago a través de la red NYC3.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2031,7 +2031,7 @@
     </message>
     <message>
         <source>Warning: Invalid NYC3 address</source>
-        <translation>Peligro: Dirección de Bitcoin inválida</translation>
+        <translation>Peligro: Dirección de NYC3 inválida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2074,7 +2074,7 @@
     </message>
     <message>
         <source>The NYC3 address to send the payment to</source>
-        <translation>Dirección Bitcoin a enviar el pago</translation>
+        <translation>Dirección NYC3 a enviar el pago</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2155,7 +2155,7 @@
     </message>
     <message>
         <source>The NYC3 address to sign the message with</source>
-        <translation>Dirección Bitcoin con la que firmar el mensaje</translation>
+        <translation>Dirección NYC3 con la que firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2207,11 +2207,11 @@
     </message>
     <message>
         <source>The NYC3 address the message was signed with</source>
-        <translation>La dirección Bitcoin con la que se firmó el mensaje</translation>
+        <translation>La dirección NYC3 con la que se firmó el mensaje</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
-        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección de Bitcoin especificada.</translation>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección de NYC3 especificada.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

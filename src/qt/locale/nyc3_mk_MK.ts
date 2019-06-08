@@ -134,7 +134,7 @@
         <translation>&amp;Потврди порака...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>NYC3</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -287,7 +287,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
+        <source>NYC3</source>
         <translation>Биткоин</translation>
     </message>
     <message>

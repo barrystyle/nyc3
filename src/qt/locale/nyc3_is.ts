@@ -62,12 +62,12 @@
         <translation>Færslugildi sem þiggja til sín</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Þetta eru Bitcoin færslugildin sem senda greiðslur. Skoðið ævinlega vel upphæðina og færslugildin sem þiggja greiðslur áður en mynt er send.</translation>
+        <source>These are your NYC3 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Þetta eru NYC3 færslugildin sem senda greiðslur. Skoðið ævinlega vel upphæðina og færslugildin sem þiggja greiðslur áður en mynt er send.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Þetta eru Bitcoin færslugildin sem þiggja greiðslur. Mælt er með að nota aldrei sama færslugildið til að þiggja fleiri en eina greiðslu.</translation>
+        <source>These are your NYC3 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Þetta eru NYC3 færslugildin sem þiggja greiðslur. Mælt er með að nota aldrei sama færslugildið til að þiggja fleiri en eina greiðslu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -323,7 +323,7 @@
     </message>
     <message>
         <source>Send coins to a NYC3 address</source>
-        <translation>Senda mynt í Bitcoin færslugildi</translation>
+        <translation>Senda mynt í NYC3 færslugildi</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -346,8 +346,8 @@
         <translation>&amp;Yfirfara skilaboð...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -370,12 +370,12 @@
         <translation>Dulkóða einkalyklana sem tilheyra veskinu þínu</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Kvitta undir skilaboð með Bitcoin færslugildunum þínum til að sanna að þú eigir þau</translation>
+        <source>Sign messages with your NYC3 addresses to prove you own them</source>
+        <translation>Kvitta undir skilaboð með NYC3 færslugildunum þínum til að sanna að þú eigir þau</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Yfirfara skilaboð til að tryggja að kvittað hafi verið fyrir þau með tilteknum Bitcoin færslugildum</translation>
+        <source>Verify messages to ensure they were signed with specified NYC3 addresses</source>
+        <translation>Yfirfara skilaboð til að tryggja að kvittað hafi verið fyrir þau með tilteknum NYC3 færslugildum</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -446,8 +446,8 @@
         <translation>Uppfært</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Sýna %1 hjálparskilaboðin til að fá lista yfir valkosti Bitcoin aðgerðir í skipanalínu</translation>
+        <source>Show the %1 help message to get a list with possible NYC3 command-line options</source>
+        <translation>Sýna %1 hjálparskilaboðin til að fá lista yfir valkosti NYC3 aðgerðir í skipanalínu</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -516,8 +516,8 @@
         <translation>Veskið er &lt;b&gt;dulkóðað&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Alvarleg villa átti sér stað. Bitcoin getur ekki haldið áfram með öruggum hætti og stoppar hér.</translation>
+        <source>A fatal error occurred. NYC3 can no longer continue safely and will quit.</source>
+        <translation>Alvarleg villa átti sér stað. NYC3 getur ekki haldið áfram með öruggum hætti og stoppar hér.</translation>
     </message>
 </context>
 <context>
@@ -631,7 +631,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid NYC3 address.</source>
-        <translation>Færslugildið sem slegið var inn "%1" er ekki leyfilegt Bitcoin færslugildi.</translation>
+        <translation>Færslugildið sem slegið var inn "%1" er ekki leyfilegt NYC3 færslugildi.</translation>
     </message>
     </context>
 <context>
@@ -643,8 +643,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>Error</source>

@@ -66,12 +66,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono i tuoi indirizzi Bitcoin per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare bitcoin.</translation>
+        <source>These are your NYC3 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono i tuoi indirizzi NYC3 per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare bitcoin.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono i tuoi indirizzi Bitcoin per la ricezione di pagamenti. Si raccomanda di usare un nuovo indirizzo di ricezione per ogni transazione.</translation>
+        <source>These are your NYC3 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono i tuoi indirizzi NYC3 per la ricezione di pagamenti. Si raccomanda di usare un nuovo indirizzo di ricezione per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -343,7 +343,7 @@
     </message>
     <message>
         <source>Send coins to a NYC3 address</source>
-        <translation>Invia fondi ad un indirizzo Bitcoin</translation>
+        <translation>Invia fondi ad un indirizzo NYC3</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,8 +366,8 @@
         <translation>&amp;Verifica messaggio...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -390,12 +390,12 @@
         <translation>Cifra le chiavi private che appartengono al tuo portamonete</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Firma messaggi con i tuoi indirizzi Bitcoin per dimostrarne il possesso</translation>
+        <source>Sign messages with your NYC3 addresses to prove you own them</source>
+        <translation>Firma messaggi con i tuoi indirizzi NYC3 per dimostrarne il possesso</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifica che i messaggi siano stati firmati con gli indirizzi Bitcoin specificati</translation>
+        <source>Verify messages to ensure they were signed with specified NYC3 addresses</source>
+        <translation>Verifica che i messaggi siano stati firmati con gli indirizzi NYC3 specificati</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -434,8 +434,8 @@
         <translation>Opzioni della riga di &amp;comando</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n connessione attiva alla rete Bitcoin</numerusform><numerusform>%n connessioni alla rete Bitcoin attive</numerusform></translation>
+        <source>%n active connection(s) to NYC3 network</source>
+        <translation><numerusform>%n connessione attiva alla rete NYC3</numerusform><numerusform>%n connessioni alla rete NYC3 attive</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -502,8 +502,8 @@
         <translation>Chiudi il portafoglio</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Mostra il messaggio di aiuto di %1 per ottenere una lista di opzioni di comando per Bitcoin </translation>
+        <source>Show the %1 help message to get a list with possible NYC3 command-line options</source>
+        <translation>Mostra il messaggio di aiuto di %1 per ottenere una lista di opzioni di comando per NYC3 </translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -614,8 +614,8 @@
         <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;bloccato&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Si è verificato un errore critico. Bitcoin non può più funzionare in maniera sicura e verrà chiuso.</translation>
+        <source>A fatal error occurred. NYC3 can no longer continue safely and will quit.</source>
+        <translation>Si è verificato un errore critico. NYC3 non può più funzionare in maniera sicura e verrà chiuso.</translation>
     </message>
 </context>
 <context>
@@ -901,8 +901,8 @@
         <translation>Usa una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -913,8 +913,8 @@
         <translation>Verranno salvati circa %1 GB di dati in questa cartella.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 scaricherà e salverà una copia della block chain di Bitcoin.</translation>
+        <source>%1 will download and store a copy of the NYC3 block chain.</source>
+        <translation>%1 scaricherà e salverà una copia della block chain di NYC3.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1131,8 +1131,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>&amp;Spendi resti non confermati</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta del client Bitcoin sul router. Il protocollo UPnP deve essere supportato da parte del router ed attivo.</translation>
+        <source>Automatically open the NYC3 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Apri automaticamente la porta del client NYC3 sul router. Il protocollo UPnP deve essere supportato da parte del router ed attivo.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1147,8 +1147,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Accetta connessioni in entrata</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Connessione alla rete Bitcoin attraverso un proxy SOCKS5.</translation>
+        <source>Connect to the NYC3 network through a SOCKS5 proxy.</source>
+        <translation>Connessione alla rete NYC3 attraverso un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1183,8 +1183,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connette alla rete Bitcoin attraverso un proxy SOCKS5 separato per Tor.</translation>
+        <source>Connect to the NYC3 network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Connette alla rete NYC3 attraverso un proxy SOCKS5 separato per Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1294,8 +1294,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Modulo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portafoglio si sincronizza automaticamente con la rete Bitcoin una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NYC3 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portafoglio si sincronizza automaticamente con la rete NYC3 una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1398,7 +1398,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid NYC3 address or malformed URI parameters.</source>
-        <translation>Impossibile interpretare l'URI! I parametri dell'URI o l'indirizzo Bitcoin potrebbero non essere corretti.</translation>
+        <translation>Impossibile interpretare l'URI! I parametri dell'URI o l'indirizzo NYC3 potrebbero non essere corretti.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1500,7 +1500,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Enter a NYC3 address (e.g. %1)</source>
-        <translation>Inserisci un indirizzo Bitcoin (ad es. %1)</translation>
+        <translation>Inserisci un indirizzo NYC3 (ad es. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1955,8 +1955,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>&amp;Messaggio:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Un messaggio opzionale da allegare e mostrare all'apertura della richiesta di pagamento. Nota: Il messaggio non sarà inviato con il pagamento sulla rete Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NYC3 network.</source>
+        <translation>Un messaggio opzionale da allegare e mostrare all'apertura della richiesta di pagamento. Nota: Il messaggio non sarà inviato con il pagamento sulla rete NYC3.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2121,7 +2121,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia Bitcoin</translation>
+        <translation>Invia NYC3</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2385,7 +2385,7 @@ Nota: poiché la commissione è calcolata su base per byte, una commissione di "
     </message>
     <message>
         <source>Warning: Invalid NYC3 address</source>
-        <translation>Attenzione: Indirizzo Bitcoin non valido</translation>
+        <translation>Attenzione: Indirizzo NYC3 non valido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2428,7 +2428,7 @@ Nota: poiché la commissione è calcolata su base per byte, una commissione di "
     </message>
     <message>
         <source>The NYC3 address to send the payment to</source>
-        <translation>L'indirizzo Bitcoin a cui vuoi inviare il pagamento</translation>
+        <translation>L'indirizzo NYC3 a cui vuoi inviare il pagamento</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2475,8 +2475,8 @@ Nota: poiché la commissione è calcolata su base per byte, una commissione di "
         <translation>Inserisci un'etichetta per questo indirizzo per aggiungerlo alla lista degli indirizzi utilizzati</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Messaggio incluso nel bitcoin URI e che sarà memorizzato con la transazione per tuo riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete Bitcoin.</translation>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NYC3 network.</source>
+        <translation>Messaggio incluso nel bitcoin URI e che sarà memorizzato con la transazione per tuo riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete NYC3.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2525,7 +2525,7 @@ Nota: poiché la commissione è calcolata su base per byte, una commissione di "
     </message>
     <message>
         <source>The NYC3 address to sign the message with</source>
-        <translation>Indirizzo Bitcoin da utilizzare per firmare il messaggio</translation>
+        <translation>Indirizzo NYC3 da utilizzare per firmare il messaggio</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2557,7 +2557,7 @@ Nota: poiché la commissione è calcolata su base per byte, una commissione di "
     </message>
     <message>
         <source>Sign the message to prove you own this NYC3 address</source>
-        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo Bitcoin</translation>
+        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo NYC3</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2581,7 +2581,7 @@ Nota: poiché la commissione è calcolata su base per byte, una commissione di "
     </message>
     <message>
         <source>The NYC3 address the message was signed with</source>
-        <translation>L'indirizzo Bitcoin con cui è stato contrassegnato il messaggio</translation>
+        <translation>L'indirizzo NYC3 con cui è stato contrassegnato il messaggio</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
@@ -3131,7 +3131,7 @@ Nota: poiché la commissione è calcolata su base per byte, una commissione di "
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia Bitcoin</translation>
+        <translation>Invia NYC3</translation>
     </message>
     <message>
         <source>Fee bump error</source>

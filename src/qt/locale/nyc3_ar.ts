@@ -66,12 +66,12 @@
         <translation>عناوين الاستقبال</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>هذه هي عناوين Bitcoin التابعة لك من أجل إرسال الدفعات. تحقق دائما من المبلغ و عنوان المرسل المستقبل قبل إرسال العملات</translation>
+        <source>These are your NYC3 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>هذه هي عناوين NYC3 التابعة لك من أجل إرسال الدفعات. تحقق دائما من المبلغ و عنوان المرسل المستقبل قبل إرسال العملات</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>هذه هي عناوين Bitcoin التابعة لك من أجل إستقبال الدفعات. ينصح استخدام عنوان جديد من أجل كل صفقة</translation>
+        <source>These are your NYC3 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>هذه هي عناوين NYC3 التابعة لك من أجل إستقبال الدفعات. ينصح استخدام عنوان جديد من أجل كل صفقة</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -358,7 +358,7 @@
         <translation>&amp;التحقق من الرسالة...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>NYC3</source>
         <translation>بتكوين</translation>
     </message>
     <message>
@@ -382,12 +382,12 @@
         <translation>تشفير المفتاح الخاص بمحفظتك</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>وقَع الرسائل بواسطة ال: Bitcoin الخاص بك لإثبات امتلاكك لهم</translation>
+        <source>Sign messages with your NYC3 addresses to prove you own them</source>
+        <translation>وقَع الرسائل بواسطة ال: NYC3 الخاص بك لإثبات امتلاكك لهم</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>تحقق من الرسائل للتأكد من أنَها وُقعت برسائل Bitcoin محدَدة</translation>
+        <source>Verify messages to ensure they were signed with specified NYC3 addresses</source>
+        <translation>تحقق من الرسائل للتأكد من أنَها وُقعت برسائل NYC3 محدَدة</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -419,7 +419,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>فتح URI : Bitcoin أو طلب دفع</translation>
+        <translation>فتح URI : NYC3 أو طلب دفع</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -470,7 +470,7 @@
         <translation>&amp;عناوين الإستقبال</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible NYC3 command-line options</source>
         <translation>بين اشارة المساعدة %1 للحصول على قائمة من خيارات اوامر البت كوين المحتملة </translation>
     </message>
     <message>
@@ -562,7 +562,7 @@
         <translation>المحفظة &lt;b&gt;مشفرة&lt;/b&gt; و &lt;b&gt;مقفلة&lt;/b&gt; حاليا</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. NYC3 can no longer continue safely and will quit.</source>
         <translation>خطأ فادح حدث . لا يمكن اتمام بيتكوين بامان سيتم الخروج</translation>
     </message>
 </context>
@@ -833,7 +833,7 @@
         <translation>استخدام دليل بيانات مخصص:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>NYC3</source>
         <translation>بتكوين</translation>
     </message>
     <message>
@@ -845,7 +845,7 @@
         <translation>سيتم تخزين %1 جيجابايت تقريباً من البيانات في هذا الدليل.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the NYC3 block chain.</source>
         <translation>سيقوم %1 بتنزيل نسخة من سلسلة كتل بتكوين وتخزينها.</translation>
     </message>
     <message>
@@ -1026,7 +1026,7 @@
         <translation>السماح بالاتصالات الواردة.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the NYC3 network through a SOCKS5 proxy.</source>
         <translation>الاتصال بشبكة البتكوين عبر وكيل SOCKS5.</translation>
     </message>
     <message>
@@ -1062,7 +1062,7 @@
         <translation>تور</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the NYC3 network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>قم بالاتصال بشبكة بتكوين عبر وكيل SOCKS5 منفصل لخدمات تور المخفية.</translation>
     </message>
     <message>
@@ -1161,7 +1161,7 @@
         <translation>نمودج</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NYC3 network after a connection is established, but this process has not completed yet.</source>
         <translation>قد تكون المعلومات المعروضة قديمة. تتزامن محفظتك تلقائيًا مع شبكة البتكوين بعد إنشاء الاتصال، ولكن هذه العملية لم تكتمل بعد.</translation>
     </message>
     <message>
@@ -1742,7 +1742,7 @@
         <translation>&amp;رسالة:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NYC3 network.</source>
         <translation>رسالة اختيارية لإرفاقها بطلب الدفع، والتي سيتم عرضها عند فتح الطلب. ملاحظة: لن يتم إرسال الرسالة مع الدفعة عبر شبكة البتكوين.</translation>
     </message>
     <message>
@@ -2214,7 +2214,7 @@
         <translation>أدخل تسمية لهذا العنوان لإضافته إلى قائمة العناوين المستخدمة</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NYC3 network.</source>
         <translation>الرسالة التي تم إرفاقها مع البتكوين: العنوان الذي سيتم تخزينه مع المعاملة للرجوع إليه. ملاحظة: لن يتم إرسال هذه الرسالة عبر شبكة البتكوين.</translation>
     </message>
     <message>

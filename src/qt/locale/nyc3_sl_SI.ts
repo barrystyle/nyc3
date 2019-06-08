@@ -66,12 +66,12 @@
         <translation>Imenik naslovov za prejemanje</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To so vaši Bitcoin naslovi za pošiljanje. Pred pošiljanjem vedno preverite količino in prejemnikov naslov.</translation>
+        <source>These are your NYC3 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To so vaši NYC3 naslovi za pošiljanje. Pred pošiljanjem vedno preverite količino in prejemnikov naslov.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To so vaši Bitcoin naslovi za prejemanje. Priporočeno je, da za vsako transakcijo uporabite nov naslov.</translation>
+        <source>These are your NYC3 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To so vaši NYC3 naslovi za prejemanje. Priporočeno je, da za vsako transakcijo uporabite nov naslov.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Send coins to a NYC3 address</source>
-        <translation>Izvedite plačilo na naslov Bitcoin</translation>
+        <translation>Izvedite plačilo na naslov NYC3</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Preveri sporočilo ...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -382,12 +382,12 @@
         <translation>Šifrirajte zasebne ključe, ki se nahajajo v denarnici</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Podpišite poljubno sporočilo z enim svojih naslovov Bitcoin, da prejemniku sporočila dokažete, da je ta naslov v vaši lasti.</translation>
+        <source>Sign messages with your NYC3 addresses to prove you own them</source>
+        <translation>Podpišite poljubno sporočilo z enim svojih naslovov NYC3, da prejemniku sporočila dokažete, da je ta naslov v vaši lasti.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Preverite, če je bilo prejeto sporočilo podpisano z določenim naslovom Bitcoin</translation>
+        <source>Verify messages to ensure they were signed with specified NYC3 addresses</source>
+        <translation>Preverite, če je bilo prejeto sporočilo podpisano z določenim naslovom NYC3</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -426,8 +426,8 @@
         <translation>Opcije &amp;ukazne vrstice</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivna povezava v omrežje Bitcoin</numerusform><numerusform>%n aktivni povezavi v omrežje Bitcoin</numerusform><numerusform>%n aktivne povezave v omrežje Bitcoin</numerusform><numerusform>%n aktivnih povezav v omrežje Bitcoin</numerusform></translation>
+        <source>%n active connection(s) to NYC3 network</source>
+        <translation><numerusform>%n aktivna povezava v omrežje NYC3</numerusform><numerusform>%n aktivni povezavi v omrežje NYC3</numerusform><numerusform>%n aktivne povezave v omrežje NYC3</numerusform><numerusform>%n aktivnih povezav v omrežje NYC3</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -691,8 +691,8 @@
         <translation>Uporabi to podatkovno mapo:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -812,7 +812,7 @@
         <translation>Omogoči &amp;trošenje drobiža iz še nepotrjenih plačil</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the NYC3 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Program samodejno odpre ustrezna vrata na usmerjevalniku. To deluje samo, če vaš usmerjevalnik podpira in ima omogočen UPnP.</translation>
     </message>
     <message>
@@ -820,8 +820,8 @@
         <translation>Preslikaj vrata z uporabo &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Poveži se v omrežje Bitcoin preko posredniškega strežnika SOCKS5.</translation>
+        <source>Connect to the NYC3 network through a SOCKS5 proxy.</source>
+        <translation>Poveži se v omrežje NYC3 preko posredniškega strežnika SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -923,8 +923,8 @@
         <translation>Oblika</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatki so morda zastareli. Program ob vzpostavitvi povezave samodejno sinhronizira denarnico z omrežjem Bitcoin, a trenutno ta proces še ni zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NYC3 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatki so morda zastareli. Program ob vzpostavitvi povezave samodejno sinhronizira denarnico z omrežjem NYC3, a trenutno ta proces še ni zaključen.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1021,7 +1021,7 @@
     </message>
     <message>
         <source>Enter a NYC3 address (e.g. %1)</source>
-        <translation>Vnesite naslov Bitcoin (npr. %1):</translation>
+        <translation>Vnesite naslov NYC3 (npr. %1):</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1268,8 +1268,8 @@
         <translation>&amp;Sporočilo:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Neobvezno sporočilo kot priponka zahtevku za plačilo, ki bo prikazano, ko bo zahtevek odprt. Opomba: Opravljeno plačilo.prek omrežja Bitcoin tega sporočila ne bo vsebovalo.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NYC3 network.</source>
+        <translation>Neobvezno sporočilo kot priponka zahtevku za plačilo, ki bo prikazano, ko bo zahtevek odprt. Opomba: Opravljeno plačilo.prek omrežja NYC3 tega sporočila ne bo vsebovalo.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1509,7 +1509,7 @@
     </message>
     <message>
         <source>The NYC3 address to send the payment to</source>
-        <translation>Naslov Bitcoin, na katerega bo plačilo poslano</translation>
+        <translation>Naslov NYC3, na katerega bo plačilo poslano</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1552,8 +1552,8 @@
         <translation>Če vnesete oznako za zgornji naslov, se bo skupaj z naslovom shranila v imenk že uporabljenih naslovov</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Sporočilo, ki ste ga pripeli na URI tipa bitcoin:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja Bitcoin.</translation>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NYC3 network.</source>
+        <translation>Sporočilo, ki ste ga pripeli na URI tipa bitcoin:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja NYC3.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1590,7 +1590,7 @@
     </message>
     <message>
         <source>The NYC3 address to sign the message with</source>
-        <translation>Naslov Bitcoin, s katerim podpisujete sporočilo</translation>
+        <translation>Naslov NYC3, s katerim podpisujete sporočilo</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1646,11 +1646,11 @@
     </message>
     <message>
         <source>The NYC3 address the message was signed with</source>
-        <translation>Naslov Bitcoin, s katerim je bilo sporočilo podpisano</translation>
+        <translation>Naslov NYC3, s katerim je bilo sporočilo podpisano</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
-        <translation>Preverite, ali je bilo sporočilo v resnici podpisano z navedenim naslovom Bitcoin.</translation>
+        <translation>Preverite, ali je bilo sporočilo v resnici podpisano z navedenim naslovom NYC3.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

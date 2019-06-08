@@ -131,7 +131,7 @@
     </message>
     <message>
         <source>Send coins to a NYC3 address</source>
-        <translation>Enviar moedas a unha dirección Bitcoin</translation>
+        <translation>Enviar moedas a unha dirección NYC3</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -154,8 +154,8 @@
         <translation>&amp;Verificar mensaxe...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -178,12 +178,12 @@
         <translation>Encriptar as claves privadas que pertencen ao teu moedeiro</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Asina mensaxes coas túas direccións Bitcoin para probar que te pertencen</translation>
+        <source>Sign messages with your NYC3 addresses to prove you own them</source>
+        <translation>Asina mensaxes coas túas direccións NYC3 para probar que te pertencen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verificar mensaxes para asegurar que foron asinados con direccións Bitcoin dadas.</translation>
+        <source>Verify messages to ensure they were signed with specified NYC3 addresses</source>
+        <translation>Verificar mensaxes para asegurar que foron asinados con direccións NYC3 dadas.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -397,8 +397,8 @@
         <translation>Empregar un directorio de datos personalizado</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>Error</source>
@@ -462,8 +462,8 @@
         <translation>Moedeiro</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente o porto do cliente Bitcoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
+        <source>Automatically open the NYC3 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente o porto do cliente NYC3 no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -545,8 +545,8 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Bitcoin despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NYC3 network after a connection is established, but this process has not completed yet.</source>
+        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede NYC3 despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -920,7 +920,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this NYC3 address</source>
-        <translation>Asina a mensaxe para probar que posees esta dirección Bitcoin</translation>
+        <translation>Asina a mensaxe para probar que posees esta dirección NYC3</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -940,7 +940,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
-        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Bitcoin especificada</translation>
+        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección NYC3 especificada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1000,7 +1000,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>NYC3</source>
-        <translation>Core de Bitcoin</translation>
+        <translation>Core de NYC3</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

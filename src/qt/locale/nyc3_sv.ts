@@ -66,12 +66,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Bitcoin-adresser för att skicka betalningar. Kontrollera alltid summan och den mottagande adressen innan du skickar bitcoin.</translation>
+        <source>These are your NYC3 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina NYC3-adresser för att skicka betalningar. Kontrollera alltid summan och den mottagande adressen innan du skickar bitcoin.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina Bitcoin-adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
+        <source>These are your NYC3 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta är dina NYC3-adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -344,7 +344,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Send coins to a NYC3 address</source>
-        <translation>Skicka bitcoin till en Bitcoin-adress</translation>
+        <translation>Skicka bitcoin till en NYC3-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -367,8 +367,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -391,12 +391,12 @@ Var vänlig och försök igen.</translation>
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina Bitcoin-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your NYC3 addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina NYC3-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna Bitcoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified NYC3 addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna NYC3-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -435,8 +435,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiva anslutningar till Bitcoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Bitcoin-nätverket.</numerusform></translation>
+        <source>%n active connection(s) to NYC3 network</source>
+        <translation><numerusform>%n aktiva anslutningar till NYC3-nätverket.</numerusform><numerusform>%n aktiva anslutningar till NYC3-nätverket.</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -503,8 +503,8 @@ Var vänlig och försök igen.</translation>
         <translation>Stäng plånboken</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Bitcoin kommandoradsalternativ.</translation>
+        <source>Show the %1 help message to get a list with possible NYC3 command-line options</source>
+        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga NYC3 kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -615,8 +615,8 @@ Var vänlig och försök igen.</translation>
         <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ett kritiskt fel uppstod. Bitcoin kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. NYC3 can no longer continue safely and will quit.</source>
+        <translation>Ett kritiskt fel uppstod. NYC3 kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -806,7 +806,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid NYC3 address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Bitcoin-adress.</translation>
+        <translation>Den angivna adressen "%1" är inte en giltig NYC3-adress.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -902,8 +902,8 @@ Var vänlig och försök igen.</translation>
         <translation>Använd en anpassad datakatalog:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>NYC3</source>
+        <translation>NYC3</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -914,8 +914,8 @@ Var vänlig och försök igen.</translation>
         <translation>Ungefär %1 GB data kommer att lagras i den här katalogen.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 kommer att ladda ner och lagra en kopia av Bitcoin-blockkedjan.</translation>
+        <source>%1 will download and store a copy of the NYC3 block chain.</source>
+        <translation>%1 kommer att ladda ner och lagra en kopia av NYC3-blockkedjan.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -946,7 +946,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med Bitcoin-nätverket enligt detaljer nedan.</translation>
+        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med NYC3-nätverket enligt detaljer nedan.</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1131,8 +1131,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Spendera obekräftad växel</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Bitcoin-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
+        <source>Automatically open the NYC3 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt NYC3-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1147,8 +1147,8 @@ Var vänlig och försök igen.</translation>
         <translation>Tillåt ankommande anslutningar</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Anslut till Bitcoin-nätverket genom en SOCKS5-proxy.</translation>
+        <source>Connect to the NYC3 network through a SOCKS5 proxy.</source>
+        <translation>Anslut till NYC3-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1183,8 +1183,8 @@ Var vänlig och försök igen.</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Anslut till Bitcoin-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
+        <source>Connect to the NYC3 network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Anslut till NYC3-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1294,8 +1294,8 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Bitcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NYC3 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med NYC3-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1390,7 +1390,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid NYC3 address or malformed URI parameters.</source>
-        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig Bitcoin-adress eller felaktiga URI-parametrar.</translation>
+        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig NYC3-adress eller felaktiga URI-parametrar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1492,7 +1492,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Enter a NYC3 address (e.g. %1)</source>
-        <translation>Ange en Bitcoin-adress (t.ex. %1)</translation>
+        <translation>Ange en NYC3-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1935,8 +1935,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Meddelande:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över Bitcoin-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NYC3 network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över NYC3-nätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2357,7 +2357,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     </message>
     <message>
         <source>Warning: Invalid NYC3 address</source>
-        <translation>Varning: Ogiltig Bitcoin-adress</translation>
+        <translation>Varning: Ogiltig NYC3-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2400,7 +2400,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     </message>
     <message>
         <source>The NYC3 address to send the payment to</source>
-        <translation>Bitcoin-adress att sända betalning till</translation>
+        <translation>NYC3-adress att sända betalning till</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2447,8 +2447,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ange en etikett för denna adress för att lägga till den i listan med använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Ett meddelande som bifogades bitcoin: -URIn och som lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Bitcoin-nätverket.</translation>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NYC3 network.</source>
+        <translation>Ett meddelande som bifogades bitcoin: -URIn och som lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över NYC3-nätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2497,7 +2497,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     </message>
     <message>
         <source>The NYC3 address to sign the message with</source>
-        <translation>Bitcoin-adress att signera meddelandet med</translation>
+        <translation>NYC3-adress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2529,7 +2529,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     </message>
     <message>
         <source>Sign the message to prove you own this NYC3 address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Bitcoin-adress</translation>
+        <translation>Signera meddelandet för att bevisa att du äger denna NYC3-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2553,11 +2553,11 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     </message>
     <message>
         <source>The NYC3 address the message was signed with</source>
-        <translation>Bitcoin-adress som meddelandet signerades med</translation>
+        <translation>NYC3-adress som meddelandet signerades med</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven Bitcoin-adress</translation>
+        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven NYC3-adress</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

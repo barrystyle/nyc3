@@ -66,11 +66,11 @@
         <translation>받는 주소들</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your NYC3 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>비트코인을 보내는 계좌 주소입니다. 코인을 보내기 전에 금액과 받는 주소를 항상 확인하세요.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your NYC3 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>비트코인을 받을 수 있는 계좌 주소입니다. 매 거래마다 새로운 주소 사용을 권장합니다. </translation>
     </message>
     <message>
@@ -366,7 +366,7 @@
         <translation>메시지 검증(&amp;V)...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>NYC3</source>
         <translation>비트코인</translation>
     </message>
     <message>
@@ -390,11 +390,11 @@
         <translation>지갑에 포함된 개인키 암호화하기</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your NYC3 addresses to prove you own them</source>
         <translation>지갑 주소가 본인 소유인지 증명하기 위해 메시지를 서명합니다</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified NYC3 addresses</source>
         <translation>해당 비트코인 주소로 서명되었는지 확인하기 위해 메시지를 검증합니다</translation>
     </message>
     <message>
@@ -434,7 +434,7 @@
         <translation>명령줄 옵션(&amp;C)</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to NYC3 network</source>
         <translation><numerusform>비트코인 네트워크에 %n개의 연결 활성화됨</numerusform></translation>
     </message>
     <message>
@@ -502,7 +502,7 @@
         <translation>지갑 닫기</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible NYC3 command-line options</source>
         <translation>사용할 수 있는 비트코인 명령줄 옵션 목록을 가져오기 위해 %1 도움말 메시지를 표시합니다</translation>
     </message>
     <message>
@@ -614,7 +614,7 @@
         <translation>지갑이 &lt;b&gt;암호화&lt;/b&gt; 되었고 현재 &lt;b&gt;잠겨져&lt;/b&gt; 있습니다</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. NYC3 can no longer continue safely and will quit.</source>
         <translation>치명적인 오류가 발생했습니다. 비트코인을 더이상 안전하게 진행할 수 없어 곧 종료합니다.</translation>
     </message>
 </context>
@@ -901,7 +901,7 @@
         <translation>커스텀 데이터 폴더 사용:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>NYC3</source>
         <translation>비트코인</translation>
     </message>
     <message>
@@ -913,7 +913,7 @@
         <translation>약 %1 GB의 데이터가 이 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the NYC3 block chain.</source>
         <translation>%1은 비트코인 블록체인의 사본을 다운로드하여 저장합니다.</translation>
     </message>
     <message>
@@ -1130,7 +1130,7 @@
         <translation>검증되지 않은 잔돈 쓰기 (&amp;S)</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the NYC3 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>라우터에서 비트코인 클라이언트 포트를 자동적으로 엽니다. 라우터에서 UPnP를 지원하고 활성화 했을 경우에만 동작합니다.</translation>
     </message>
     <message>
@@ -1146,7 +1146,7 @@
         <translation>연결 요청을 허용 (&amp;G)</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the NYC3 network through a SOCKS5 proxy.</source>
         <translation>SOCKS5 프록시를 통해 비트코인 네트워크에 연결합니다.</translation>
     </message>
     <message>
@@ -1182,7 +1182,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the NYC3 network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Tor 서비스를 경유하여 비트코인 네트워크에 연결하기 위해 분리된 SOCKS5 프록시를 사용합니다.</translation>
     </message>
     <message>
@@ -1293,7 +1293,7 @@
         <translation>유형</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NYC3 network after a connection is established, but this process has not completed yet.</source>
         <translation>표시된 정보가 오래된 것 같습니다. 비트코인 네트워크에 연결하고 난 다음에 지갑을 자동으로 동기화 하지만, 아직 과정이 끝나지는 않았습니다.</translation>
     </message>
     <message>
@@ -1954,7 +1954,7 @@
         <translation>메시지(&amp;M):</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NYC3 network.</source>
         <translation>지불 요청에 첨부되는 선택가능한 메시지 입니다. 이 메세지는 요청이 열릴 때 표시될 것 입니다. 메모: 이 메시지는 비트코인 네트워크로 전송되지 않습니다.</translation>
     </message>
     <message>
@@ -2474,7 +2474,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>이 주소에 라벨을 입력하면 사용된 주소 목록에 라벨이 표시됩니다</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NYC3 network.</source>
         <translation>bitcoin: URI에 추가된 메시지는 참고를 위해 거래내역과 함께 저장될 것입니다. Note: 이 메시지는 비트코인 네트워크로 전송되지 않습니다.</translation>
     </message>
     <message>
