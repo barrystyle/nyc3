@@ -240,7 +240,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NYC3GUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;Allekirjoita viesti...</translation>
@@ -479,7 +479,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible NYC3 command-line options</source>
-        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista Bitcoinin komentorivivalinnoista</translation>
+        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista NYC3in komentorivivalinnoista</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -878,7 +878,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the NYC3 block chain.</source>
-        <translation>%1 lataa ja tallentaa kopion Bitcoinin lohkoketjusta.</translation>
+        <translation>%1 lataa ja tallentaa kopion NYC3in lohkoketjusta.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1286,7 +1286,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien Bitcoinien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien NYC3ien määrä</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -1321,7 +1321,7 @@
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Bitcoinia ei voi käynnistää: klikkaa-maksaaksesi -käsittelijän virhe</translation>
+        <translation>NYC3ia ei voi käynnistää: klikkaa-maksaaksesi -käsittelijän virhe</translation>
     </message>
     <message>
         <source>URI handling</source>

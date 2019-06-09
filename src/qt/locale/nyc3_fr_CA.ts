@@ -36,7 +36,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NYC3GUI</name>
     </context>
 <context>
     <name>CoinControlDialog</name>

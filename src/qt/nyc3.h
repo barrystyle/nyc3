@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2016 The Bitcoin Core developers
+// Copyright (c) 2011-2016 The NYC3 Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,7 +13,7 @@
 #include <memory>
 #include <vector>
 
-class BitcoinGUI;
+class NYC3GUI;
 class ClientModel;
 class NetworkStyle;
 class OptionsModel;
@@ -30,11 +30,11 @@ class Node;
 /** Class encapsulating NYC3 startup and shutdown.
  * Allows running startup and shutdown in a different thread from the UI thread.
  */
-class BitcoinCore: public QObject
+class NYC3Core: public QObject
 {
     Q_OBJECT
 public:
-    explicit BitcoinCore(interfaces::Node& node);
+    explicit NYC3Core(interfaces::Node& node);
 
 public Q_SLOTS:
     void initialize();
@@ -52,13 +52,13 @@ private:
     interfaces::Node& m_node;
 };
 
-/** Main Bitcoin application object */
-class BitcoinApplication: public QApplication
+/** Main NYC3 application object */
+class NYC3Application: public QApplication
 {
     Q_OBJECT
 public:
-    explicit BitcoinApplication(interfaces::Node& node, int &argc, char **argv);
-    ~BitcoinApplication();
+    explicit NYC3Application(interfaces::Node& node, int &argc, char **argv);
+    ~NYC3Application();
 
 #ifdef ENABLE_WALLET
     /// Create payment server
@@ -83,7 +83,7 @@ public:
     /// Get process return value
     int getReturnValue() const { return returnValue; }
 
-    /// Get window identifier of QMainWindow (BitcoinGUI)
+    /// Get window identifier of QMainWindow (NYC3GUI)
     WId getMainWinId() const;
 
     /// Setup platform style
@@ -99,14 +99,14 @@ Q_SIGNALS:
     void requestedInitialize();
     void requestedShutdown();
     void splashFinished();
-    void windowShown(BitcoinGUI* window);
+    void windowShown(NYC3GUI* window);
 
 private:
     QThread *coreThread;
     interfaces::Node& m_node;
     OptionsModel *optionsModel;
     ClientModel *clientModel;
-    BitcoinGUI *window;
+    NYC3GUI *window;
     QTimer *pollShutdownTimer;
 #ifdef ENABLE_WALLET
     PaymentServer* paymentServer{nullptr};

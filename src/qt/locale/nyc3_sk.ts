@@ -240,7 +240,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NYC3GUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Podpísať &amp;správu...</translation>
@@ -503,7 +503,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible NYC3 command-line options</source>
-        <translation>Ukáž %1 zoznam možných nastavení Bitcoinu pomocou príkazového riadku</translation>
+        <translation>Ukáž %1 zoznam možných nastavení NYC3u pomocou príkazového riadku</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -1183,7 +1183,7 @@
     </message>
     <message>
         <source>Connect to the NYC3 network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Pripojiť k Bitcoinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
+        <translation>Pripojiť k NYC3ovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -2121,7 +2121,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať Bitcoins</translation>
+        <translation>Poslať NYC3s</translation>
     </message>
     <message>
         <source>Coin Control Features</source>

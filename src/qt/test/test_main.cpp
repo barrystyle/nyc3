@@ -1,4 +1,4 @@
-// Copyright (c) 2009-2018 The Bitcoin Core developers
+// Copyright (c) 2009-2018 The NYC3 Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -71,8 +71,8 @@ int main(int argc, char *argv[])
 
     // Don't remove this, it's needed to access
     // QApplication:: and QCoreApplication:: in the tests
-    BitcoinApplication app(*node, argc, argv);
-    app.setApplicationName("Bitcoin-Qt-test");
+    NYC3Application app(*node, argc, argv);
+    app.setApplicationName("NYC3-Qt-test");
 
     SSL_library_init();
 

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-# Copyright (c) 2014-2018 The Bitcoin Core developers
+# Copyright (c) 2014-2018 The NYC3 Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test the wallet accounts properly when there are cloned transactions with malleated scriptsigs."""
 
 import io
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import NYC3TestFramework
 from test_framework.util import (
     assert_equal,
     bytes_to_hex_str as b2x,
@@ -15,7 +15,7 @@ from test_framework.util import (
 )
 from test_framework.messages import CTransaction, COIN
 
-class TxnMallTest(BitcoinTestFramework):
+class TxnMallTest(NYC3TestFramework):
     def set_test_params(self):
         self.num_nodes = 4
 

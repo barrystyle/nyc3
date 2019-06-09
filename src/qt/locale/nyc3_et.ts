@@ -224,7 +224,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NYC3GUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signeeri &amp;sõnum</translation>
@@ -295,7 +295,7 @@
     </message>
     <message>
         <source>Send coins to a NYC3 address</source>
-        <translation>Saada münte Bitcoini aadressile</translation>
+        <translation>Saada münte NYC3i aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -343,11 +343,11 @@
     </message>
     <message>
         <source>Sign messages with your NYC3 addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Bitcoini aadressiga</translation>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma NYC3i aadressiga</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified NYC3 addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Bitcoini aadressiga</translation>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud NYC3i aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -379,7 +379,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to NYC3 network</source>
-        <translation><numerusform>%n aktiivne ühendus Bitcoini võrku</numerusform><numerusform>%n aktiivset ühendust Bitcoini võrku</numerusform></translation>
+        <translation><numerusform>%n aktiivne ühendus NYC3i võrku</numerusform><numerusform>%n aktiivset ühendust NYC3i võrku</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -737,7 +737,7 @@
     </message>
     <message>
         <source>Automatically open the NYC3 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Bitcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <translation>NYC3i kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1458,7 +1458,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this NYC3 address</source>
-        <translation>Allkirjasta sõnum Bitcoini aadressi sulle kuulumise tõestamiseks</translation>
+        <translation>Allkirjasta sõnum NYC3i aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1482,7 +1482,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Bitcoini aadressiga.</translation>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud NYC3i aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1918,7 +1918,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>NYC3</source>
-        <translation>Bitcoini tuumik</translation>
+        <translation>NYC3i tuumik</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>

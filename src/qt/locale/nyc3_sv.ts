@@ -241,7 +241,7 @@ Var vänlig och försök igen.</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NYC3GUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signera &amp;meddelande...</translation>
@@ -3107,7 +3107,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Skicka Bitcoins</translation>
+        <translation>Skicka NYC3s</translation>
     </message>
     <message>
         <source>Fee bump error</source>

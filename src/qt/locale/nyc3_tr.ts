@@ -236,7 +236,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NYC3GUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;İleti imzala...</translation>
@@ -2974,7 +2974,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Bitcoini Gönder</translation>
+        <translation>NYC3i Gönder</translation>
     </message>
     <message>
         <source>Increasing transaction fee failed</source>

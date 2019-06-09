@@ -236,7 +236,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NYC3GUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signer &amp;melding...</translation>
@@ -1958,7 +1958,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Send Bitcoins</translation>
+        <translation>Send NYC3s</translation>
     </message>
     <message>
         <source>Coin Control Features</source>

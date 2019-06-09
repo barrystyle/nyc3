@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>These are your NYC3 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Hierdie is die adresse waar u Bitcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+        <translation>Hierdie is die adresse waar u NYC3s sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NYC3GUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Teken &amp;boodskap...</translation>
@@ -1698,7 +1698,7 @@ transaksievertragingsrisiko.</translation>
     </message>
     <message>
         <source>Warning: Invalid NYC3 address</source>
-        <translation>Waarskuwing: Ongeldige Bitcoinadres</translation>
+        <translation>Waarskuwing: Ongeldige NYC3adres</translation>
     </message>
     <message>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
@@ -1731,7 +1731,7 @@ Is u seker?</translation>
     </message>
     <message>
         <source>The NYC3 address to send the payment to</source>
-        <translation>Die Bitcoinadres waarheen die betaling gestuur word</translation>
+        <translation>Die NYC3adres waarheen die betaling gestuur word</translation>
     </message>
     <message>
         <source>Alt+A</source>

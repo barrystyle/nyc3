@@ -240,7 +240,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NYC3GUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Po&amp;depiš zprávu...</translation>
@@ -503,7 +503,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible NYC3 command-line options</source>
-        <translation>Seznam argumentů Bitcoinu pro příkazovou řádku získáš v nápovědě %1</translation>
+        <translation>Seznam argumentů NYC3u pro příkazovou řádku získáš v nápovědě %1</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -2427,7 +2427,7 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
     </message>
     <message>
         <source>The NYC3 address to send the payment to</source>
-        <translation>Bitcoinová adresa příjemce</translation>
+        <translation>NYC3ová adresa příjemce</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2524,7 +2524,7 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
     </message>
     <message>
         <source>The NYC3 address to sign the message with</source>
-        <translation>Bitcoinová adresa, kterou se zpráva podepíše</translation>
+        <translation>NYC3ová adresa, kterou se zpráva podepíše</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2580,7 +2580,7 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
     </message>
     <message>
         <source>The NYC3 address the message was signed with</source>
-        <translation>Bitcoinová adresa, kterou je zpráva podepsána</translation>
+        <translation>NYC3ová adresa, kterou je zpráva podepsána</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified NYC3 address</source>

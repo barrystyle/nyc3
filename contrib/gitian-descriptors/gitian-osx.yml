@@ -30,11 +30,15 @@ packages:
 remotes:
 - "url": "https://github.com/nyc3coin/nyc3"
   "dir": "nyc3"
+- "url": "https://github.com/barrystyle/argon2s.git"
+  "dir": "argon2s"
 files:
 - "MacOSX10.11.sdk.tar.gz"
 script: |
   set -e -o pipefail
-
+#this is a hack since gitian has no natural support for submodules
+  cp -r argon2s/* nyc3/src/argon2s
+  #make sure this file exists... 
   WRAP_DIR=$HOME/wrapped
   HOSTS="x86_64-apple-darwin14"
   CONFIGFLAGS="--enable-reduce-exports --disable-bench --disable-gui-tests GENISOIMAGE=$WRAP_DIR/genisoimage"

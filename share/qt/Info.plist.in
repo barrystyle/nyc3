@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.bitcoin.BitcoinPayment</string>
+      <string>org.bitcoin.NYC3Payment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>bitcoin</string>

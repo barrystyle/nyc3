@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2018 The Bitcoin Core developers
+// Copyright (c) 2011-2018 The NYC3 Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -55,7 +55,7 @@ public:
 
         if (valid) {
             val = qBound(m_min_amount, val, m_max_amount);
-            input = BitcoinUnits::format(currentUnit, val, false, BitcoinUnits::separatorAlways);
+            input = NYC3Units::format(currentUnit, val, false, NYC3Units::separatorAlways);
             lineEdit()->setText(input);
         }
     }
@@ -67,7 +67,7 @@ public:
 
     void setValue(const CAmount& value)
     {
-        lineEdit()->setText(BitcoinUnits::format(currentUnit, value, false, BitcoinUnits::separatorAlways));
+        lineEdit()->setText(NYC3Units::format(currentUnit, value, false, NYC3Units::separatorAlways));
         Q_EMIT valueChanged();
     }
 
@@ -121,7 +121,7 @@ public:
 
             const QFontMetrics fm(fontMetrics());
             int h = lineEdit()->minimumSizeHint().height();
-            int w = fm.width(BitcoinUnits::format(BitcoinUnits::NYC3, BitcoinUnits::maxMoney(), false, BitcoinUnits::separatorAlways));
+            int w = fm.width(NYC3Units::format(NYC3Units::NYC3, NYC3Units::maxMoney(), false, NYC3Units::separatorAlways));
             w += 2; // cursor blinking space
 
             QStyleOptionSpinBox opt;
@@ -147,12 +147,12 @@ public:
     }
 
 private:
-    int currentUnit{BitcoinUnits::NYC3};
+    int currentUnit{NYC3Units::NYC3};
     CAmount singleStep{CAmount(100000)}; // satoshis
     mutable QSize cachedMinimumSizeHint;
     bool m_allow_empty{true};
     CAmount m_min_amount{CAmount(0)};
-    CAmount m_max_amount{BitcoinUnits::maxMoney()};
+    CAmount m_max_amount{NYC3Units::maxMoney()};
 
     /**
      * Parse a string into a number of base monetary units and
@@ -162,10 +162,10 @@ private:
     CAmount parse(const QString &text, bool *valid_out=nullptr) const
     {
         CAmount val = 0;
-        bool valid = BitcoinUnits::parse(currentUnit, text, &val);
+        bool valid = NYC3Units::parse(currentUnit, text, &val);
         if(valid)
         {
-            if(val < 0 || val > BitcoinUnits::maxMoney())
+            if(val < 0 || val > NYC3Units::maxMoney())
                 valid = false;
         }
         if(valid_out)
@@ -226,7 +226,7 @@ nyc3amountfield::nyc3amountfield(QWidget *parent) :
     QHBoxLayout *layout = new QHBoxLayout(this);
     layout->addWidget(amount);
     unit = new QValueComboBox(this);
-    unit->setModel(new BitcoinUnits(this));
+    unit->setModel(new NYC3Units(this));
     layout->addWidget(unit);
     layout->addStretch(1);
     layout->setContentsMargins(0,0,0,0);
@@ -325,7 +325,7 @@ void nyc3amountfield::unitChanged(int idx)
     unit->setToolTip(unit->itemData(idx, Qt::ToolTipRole).toString());
 
     // Determine new unit ID
-    int newUnit = unit->itemData(idx, BitcoinUnits::UnitRole).toInt();
+    int newUnit = unit->itemData(idx, NYC3Units::UnitRole).toInt();
 
     amount->setDisplayUnit(newUnit);
 }

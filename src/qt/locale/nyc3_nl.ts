@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>These are your NYC3 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Bitcoinadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw bitcoins verzendt.</translation>
+        <translation>Dit zijn uw NYC3adressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw bitcoins verzendt.</translation>
     </message>
     <message>
         <source>These are your NYC3 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -240,7 +240,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NYC3GUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;Onderteken bericht...</translation>
@@ -343,7 +343,7 @@
     </message>
     <message>
         <source>Send coins to a NYC3 address</source>
-        <translation>Verstuur munten naar een Bitcoinadres</translation>
+        <translation>Verstuur munten naar een NYC3adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -391,11 +391,11 @@
     </message>
     <message>
         <source>Sign messages with your NYC3 addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Bitcoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <translation>Onderteken berichten met uw NYC3adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified NYC3 addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Bitcoinadressen</translation>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde NYC3adressen</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -435,7 +435,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to NYC3 network</source>
-        <translation><numerusform>%n actieve verbinding met Bitcoinnetwerk</numerusform><numerusform>%n actieve verbindingen met Bitcoinnetwerk</numerusform></translation>
+        <translation><numerusform>%n actieve verbinding met NYC3netwerk</numerusform><numerusform>%n actieve verbindingen met NYC3netwerk</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -805,7 +805,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid NYC3 address.</source>
-        <translation>Het opgegeven adres "%1" is een ongeldig Bitcoinadres.</translation>
+        <translation>Het opgegeven adres "%1" is een ongeldig NYC3adres.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1131,7 +1131,7 @@
     </message>
     <message>
         <source>Automatically open the NYC3 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Bitcoinpoort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <translation>Open de NYC3poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1147,7 +1147,7 @@
     </message>
     <message>
         <source>Connect to the NYC3 network through a SOCKS5 proxy.</source>
-        <translation>Verbind met het Bitcoinnetwerk via een SOCKS5 proxy.</translation>
+        <translation>Verbind met het NYC3netwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1183,7 +1183,7 @@
     </message>
     <message>
         <source>Connect to the NYC3 network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Maak verbinding met Bitcoinnetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
+        <translation>Maak verbinding met NYC3netwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1294,7 +1294,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NYC3 network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automatisch met het Bitcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automatisch met het NYC3netwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1499,7 +1499,7 @@
     </message>
     <message>
         <source>Enter a NYC3 address (e.g. %1)</source>
-        <translation>Voer een Bitcoinadres in (bijv. %1)</translation>
+        <translation>Voer een NYC3adres in (bijv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1955,7 +1955,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NYC3 network.</source>
-        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, welke zal getoond worden wanneer het verzoek is geopend. Opmerking: Het bericht zal niet worden verzonden met de betaling over het Bitcoinnetwerk.</translation>
+        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, welke zal getoond worden wanneer het verzoek is geopend. Opmerking: Het bericht zal niet worden verzonden met de betaling over het NYC3netwerk.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2384,7 +2384,7 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>Warning: Invalid NYC3 address</source>
-        <translation>Waarschuwing: Ongeldig Bitcoinadres</translation>
+        <translation>Waarschuwing: Ongeldig NYC3adres</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2427,7 +2427,7 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>The NYC3 address to send the payment to</source>
-        <translation>Het Bitcoinadres om betaling aan te versturen</translation>
+        <translation>Het NYC3adres om betaling aan te versturen</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2475,7 +2475,7 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NYC3 network.</source>
-        <translation>Een bericht dat werd toegevoegd aan de bitcoin: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Bitcoinnetwerk.</translation>
+        <translation>Een bericht dat werd toegevoegd aan de bitcoin: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het NYC3netwerk.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2520,11 +2520,11 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>U kunt berichten/overeenkomsten ondertekenen met uw adres om te bewijzen dat u Bitcoins kunt versturen. Wees voorzichtig met het ondertekenen van iets vaags of willekeurigs, omdat phishingaanvallen u kunnen proberen te misleiden tot het ondertekenen van overeenkomsten om uw identiteit aan hen toe te vertrouwen. Onderteken alleen volledig gedetailleerde verklaringen voordat u akkoord gaat.</translation>
+        <translation>U kunt berichten/overeenkomsten ondertekenen met uw adres om te bewijzen dat u NYC3s kunt versturen. Wees voorzichtig met het ondertekenen van iets vaags of willekeurigs, omdat phishingaanvallen u kunnen proberen te misleiden tot het ondertekenen van overeenkomsten om uw identiteit aan hen toe te vertrouwen. Onderteken alleen volledig gedetailleerde verklaringen voordat u akkoord gaat.</translation>
     </message>
     <message>
         <source>The NYC3 address to sign the message with</source>
-        <translation>Het Bitcoinadres om bericht mee te ondertekenen</translation>
+        <translation>Het NYC3adres om bericht mee te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2556,7 +2556,7 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>Sign the message to prove you own this NYC3 address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald NYC3adres bezit</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2580,11 +2580,11 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>The NYC3 address the message was signed with</source>
-        <translation>Het Bitcoinadres waarmee het bericht ondertekend is</translation>
+        <translation>Het NYC3adres waarmee het bericht ondertekend is</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified NYC3 address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde NYC3adres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

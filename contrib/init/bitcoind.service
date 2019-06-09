@@ -9,7 +9,7 @@
 # in ExecStart=
 
 [Unit]
-Description=Bitcoin daemon
+Description=NYC3 daemon
 After=network.target
 
 [Service]

@@ -200,7 +200,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NYC3GUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>签名 &amp;消息...</translation>
@@ -387,7 +387,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible NYC3 command-line options</source>
-        <translation>显示%1帮助消息以获得可能包含Bitcoin命令行选项的列表</translation>
+        <translation>显示%1帮助消息以获得可能包含NYC3命令行选项的列表</translation>
     </message>
     <message>
         <source>&amp;Window</source>

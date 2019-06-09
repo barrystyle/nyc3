@@ -1,9 +1,9 @@
-Bitcoin version 0.4.4 is now available for download at:
+NYC3 version 0.4.4 is now available for download at:
 http://luke.dashjr.org/programs/bitcoin/files/bitcoind-0.4.4/
 
 This is a bugfix-only release based on 0.4.0.
 
-Please note that the wxBitcoin GUI client is no longer maintained nor supported. If someone would like to step up to maintain this, they should contact Luke-Jr.
+Please note that the wxNYC3 GUI client is no longer maintained nor supported. If someone would like to step up to maintain this, they should contact Luke-Jr.
 
 Please report bugs for the daemon only using the issue tracker at github:
 https://github.com/bitcoin/bitcoin/issues
