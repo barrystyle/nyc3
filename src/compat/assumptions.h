@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2019 The Bitcoin Core developers
+// Copyright (c) 2009-2019 The NYC3 Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -14,7 +14,7 @@
 // Example(s): We use assert(...) extensively with the assumption of it never
 //             being a noop at runtime.
 #if defined(NDEBUG)
-# error "Bitcoin cannot be compiled without assertions."
+# error "NYC3 cannot be compiled without assertions."
 #endif
 
 // Assumption: We assume the floating-point types to fulfill the requirements of

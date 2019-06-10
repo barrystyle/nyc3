@@ -1,4 +1,4 @@
-// Copyright (c) 2018 The Bitcoin Core developers
+// Copyright (c) 2018 The NYC3 Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -51,7 +51,7 @@ void TestRpcCommand(RPCConsole* console)
 }
 } // namespace
 
-//! Entry point for BitcoinApplication tests.
+//! Entry point for NYC3Application tests.
 void AppTests::appTests()
 {
 #ifdef Q_OS_MAC
@@ -72,7 +72,7 @@ void AppTests::appTests()
         NetworkStyle::instantiate(QString::fromStdString(Params().NetworkIDString())));
     m_app.setupPlatformStyle();
     m_app.createWindow(style.data());
-    connect(&m_app, &BitcoinApplication::windowShown, this, &AppTests::guiTests);
+    connect(&m_app, &NYC3Application::windowShown, this, &AppTests::guiTests);
     expectCallback("guiTests");
     m_app.baseInitialize();
     m_app.requestInitialize();
@@ -85,11 +85,11 @@ void AppTests::appTests()
     UnloadBlockIndex();
 }
 
-//! Entry point for BitcoinGUI tests.
-void AppTests::guiTests(BitcoinGUI* window)
+//! Entry point for NYC3GUI tests.
+void AppTests::guiTests(NYC3GUI* window)
 {
     HandleCallback callback{"guiTests", *this};
-    connect(window, &BitcoinGUI::consoleShown, this, &AppTests::consoleTests);
+    connect(window, &NYC3GUI::consoleShown, this, &AppTests::consoleTests);
     expectCallback("consoleTests");
     QAction* action = window->findChild<QAction*>("openRPCConsoleAction");
     action->activate(QAction::Trigger);

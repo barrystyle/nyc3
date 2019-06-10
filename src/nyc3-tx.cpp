@@ -1,4 +1,4 @@
-// Copyright (c) 2009-2018 The Bitcoin Core developers
+// Copyright (c) 2009-2018 The NYC3 Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -33,7 +33,7 @@ static const int CONTINUE_EXECUTION=-1;
 
 const std::function<std::string(const char*)> G_TRANSLATION_FUN = nullptr;
 
-static void SetupBitcoinTxArgs()
+static void SetupNYC3TxArgs()
 {
     SetupHelpOptions(gArgs);
 
@@ -78,7 +78,7 @@ static int AppInitRawTx(int argc, char* argv[])
     //
     // Parameters
     //
-    SetupBitcoinTxArgs();
+    SetupNYC3TxArgs();
     std::string error;
     if (!gArgs.ParseParameters(argc, argv, error)) {
         fprintf(stderr, "Error parsing command line arguments: %s\n", error.c_str());

@@ -22,7 +22,7 @@ libtool
 pkg-config
 python37
 
-git clone https://github.com/bitcoin/bitcoin.git
+git clone https://github.com/nyc3coin/nyc3
 ```
 
 See [dependencies.md](dependencies.md) for a complete overview.

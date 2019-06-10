@@ -83,7 +83,7 @@ src/qt/bitcoin-qt.includes
 *.qm
 Makefile
 bitcoin-qt
-Bitcoin-Qt.app
+NYC3-Qt.app
 background.tiff*
 
 # Unit-tests

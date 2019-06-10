@@ -17,7 +17,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/Bitcoin-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/NYC3-Qt (on Mac) or
 bitcoind/bitcoin-qt (on Linux).
 
 Downgrading warning
@@ -172,7 +172,7 @@ improved by making the signatures constant time and deterministic.
 
 This change is a result of switching signing to use libsecp256k1
 instead of OpenSSL. Libsecp256k1 is a cryptographic library
-optimized for the curve Bitcoin uses which was created by Bitcoin
+optimized for the curve NYC3 uses which was created by NYC3
 Core developer Pieter Wuille.
 
 There exist attacks[1] against most ECC implementations where an
@@ -187,7 +187,7 @@ long time, but this functionality has still not made its
 way into a released version of OpenSSL. Libsecp256k1 achieves
 significantly stronger protection: As far as we're aware this is
 the only deployed implementation of constant time signing for
-the curve Bitcoin uses and we have reason to believe that
+the curve NYC3 uses and we have reason to believe that
 libsecp256k1 is better tested and more thoroughly reviewed
 than the implementation in OpenSSL.
 
@@ -225,7 +225,7 @@ Consensus library
 Starting from 0.10.0, the NYC3 distribution includes a consensus library.
 
 The purpose of this library is to make the verification functionality that is
-critical to Bitcoin's consensus available to other applications, e.g. to language
+critical to NYC3's consensus available to other applications, e.g. to language
 bindings such as [python-bitcoinlib](https://pypi.python.org/pypi/python-bitcoinlib) or
 alternative node implementations.
 
@@ -247,7 +247,7 @@ Standard script rules relaxed for P2SH addresses
 The IsStandard() rules have been almost completely removed for P2SH
 redemption scripts, allowing applications to make use of any valid
 script type, such as "n-of-m OR y", hash-locked oracle addresses, etc.
-While the Bitcoin protocol has always supported these types of script,
+While the NYC3 protocol has always supported these types of script,
 actually using them on mainnet has been previously inconvenient as
 standard NYC3 nodes wouldn't relay them to miners, nor would
 most miners include them in blocks they mined.
@@ -282,7 +282,7 @@ Mining and relay policy enhancements
 NYC3's block templates are now for version 3 blocks only, and any mining
 software relying on its `getblocktemplate` must be updated in parallel to use
 libblkmaker either version 0.4.2 or any version from 0.5.1 onward.
-If you are solo mining, this will affect you the moment you upgrade Bitcoin
+If you are solo mining, this will affect you the moment you upgrade NYC3
 Core, which must be done prior to BIP66 achieving its 951/1001 status.
 If you are mining with the stratum mining protocol: this does not affect you.
 If you are mining with the getblocktemplate protocol to a pool: this will affect
@@ -315,7 +315,7 @@ BIP 66: strict DER encoding for signatures
 
 NYC3 0.10 implements BIP 66, which introduces block version 3, and a new
 consensus rule, which prohibits non-DER signatures. Such transactions have been
-non-standard since Bitcoin v0.8.0 (released in February 2013), but were
+non-standard since NYC3 v0.8.0 (released in February 2013), but were
 technically still permitted inside blocks.
 
 This change breaks the dependency on OpenSSL's signature parsing, and is
@@ -539,7 +539,7 @@ GUI:
 - `7007402` Implement SI-style (thin space) thoudands separator
 - `91cce17` Use fixed-point arithmetic in amount spinbox
 - `bdba2dd` Remove an obscure option no-one cares about
-- `bd0aa10` Replace the temporary file hack currently used to change Bitcoin-Qt's dock icon (OS X) with a buffer-based solution
+- `bd0aa10` Replace the temporary file hack currently used to change NYC3-Qt's dock icon (OS X) with a buffer-based solution
 - `94e1b9e` Re-work overviewpage UI
 - `8bfdc9a` Better looking trayicon
 - `b197bf3` disable tray interactions when client model set to 0

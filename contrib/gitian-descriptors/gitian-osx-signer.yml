@@ -1,5 +1,5 @@
 ---
-name: "bitcoin-dmg-signer"
+name: "nyc3-dmg-signer"
 suites:
 - "bionic"
 architectures:

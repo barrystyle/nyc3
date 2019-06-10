@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2018 The Bitcoin Core developers
+// Copyright (c) 2011-2018 The NYC3 Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,7 +8,7 @@
 #include <QDialog>
 #include <QObject>
 
-class BitcoinGUI;
+class NYC3GUI;
 
 namespace interfaces {
     class Node;
@@ -46,7 +46,7 @@ class ShutdownWindow : public QWidget
 
 public:
     explicit ShutdownWindow(QWidget *parent=nullptr, Qt::WindowFlags f=Qt::Widget);
-    static QWidget *showShutdownWindow(BitcoinGUI *window);
+    static QWidget *showShutdownWindow(NYC3GUI *window);
 
 protected:
     void closeEvent(QCloseEvent *event);

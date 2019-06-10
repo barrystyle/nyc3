@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2018 The Bitcoin Core developers
+// Copyright (c) 2011-2018 The NYC3 Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -28,7 +28,7 @@ class TxViewDelegate : public QAbstractItemDelegate
     Q_OBJECT
 public:
     explicit TxViewDelegate(const PlatformStyle *_platformStyle, QObject *parent=nullptr):
-        QAbstractItemDelegate(parent), unit(BitcoinUnits::NYC3),
+        QAbstractItemDelegate(parent), unit(NYC3Units::NYC3),
         platformStyle(_platformStyle)
     {
 
@@ -86,7 +86,7 @@ public:
             foreground = option.palette.color(QPalette::Text);
         }
         painter->setPen(foreground);
-        QString amountText = BitcoinUnits::formatWithUnit(unit, amount, true, BitcoinUnits::separatorAlways);
+        QString amountText = NYC3Units::formatWithUnit(unit, amount, true, NYC3Units::separatorAlways);
         if(!confirmed)
         {
             amountText = QString("[") + amountText + QString("]");
@@ -162,19 +162,19 @@ void OverviewPage::setBalance(const interfaces::WalletBalances& balances)
     int unit = walletModel->getOptionsModel()->getDisplayUnit();
     m_balances = balances;
     if (walletModel->privateKeysDisabled()) {
-        ui->labelBalance->setText(BitcoinUnits::formatWithUnit(unit, balances.watch_only_balance, false, BitcoinUnits::separatorAlways));
-        ui->labelUnconfirmed->setText(BitcoinUnits::formatWithUnit(unit, balances.unconfirmed_watch_only_balance, false, BitcoinUnits::separatorAlways));
-        ui->labelImmature->setText(BitcoinUnits::formatWithUnit(unit, balances.immature_watch_only_balance, false, BitcoinUnits::separatorAlways));
-        ui->labelTotal->setText(BitcoinUnits::formatWithUnit(unit, balances.watch_only_balance + balances.unconfirmed_watch_only_balance + balances.immature_watch_only_balance, false, BitcoinUnits::separatorAlways));
+        ui->labelBalance->setText(NYC3Units::formatWithUnit(unit, balances.watch_only_balance, false, NYC3Units::separatorAlways));
+        ui->labelUnconfirmed->setText(NYC3Units::formatWithUnit(unit, balances.unconfirmed_watch_only_balance, false, NYC3Units::separatorAlways));
+        ui->labelImmature->setText(NYC3Units::formatWithUnit(unit, balances.immature_watch_only_balance, false, NYC3Units::separatorAlways));
+        ui->labelTotal->setText(NYC3Units::formatWithUnit(unit, balances.watch_only_balance + balances.unconfirmed_watch_only_balance + balances.immature_watch_only_balance, false, NYC3Units::separatorAlways));
     } else {
-        ui->labelBalance->setText(BitcoinUnits::formatWithUnit(unit, balances.balance, false, BitcoinUnits::separatorAlways));
-        ui->labelUnconfirmed->setText(BitcoinUnits::formatWithUnit(unit, balances.unconfirmed_balance, false, BitcoinUnits::separatorAlways));
-        ui->labelImmature->setText(BitcoinUnits::formatWithUnit(unit, balances.immature_balance, false, BitcoinUnits::separatorAlways));
-        ui->labelTotal->setText(BitcoinUnits::formatWithUnit(unit, balances.balance + balances.unconfirmed_balance + balances.immature_balance, false, BitcoinUnits::separatorAlways));
-        ui->labelWatchAvailable->setText(BitcoinUnits::formatWithUnit(unit, balances.watch_only_balance, false, BitcoinUnits::separatorAlways));
-        ui->labelWatchPending->setText(BitcoinUnits::formatWithUnit(unit, balances.unconfirmed_watch_only_balance, false, BitcoinUnits::separatorAlways));
-        ui->labelWatchImmature->setText(BitcoinUnits::formatWithUnit(unit, balances.immature_watch_only_balance, false, BitcoinUnits::separatorAlways));
-        ui->labelWatchTotal->setText(BitcoinUnits::formatWithUnit(unit, balances.watch_only_balance + balances.unconfirmed_watch_only_balance + balances.immature_watch_only_balance, false, BitcoinUnits::separatorAlways));
+        ui->labelBalance->setText(NYC3Units::formatWithUnit(unit, balances.balance, false, NYC3Units::separatorAlways));
+        ui->labelUnconfirmed->setText(NYC3Units::formatWithUnit(unit, balances.unconfirmed_balance, false, NYC3Units::separatorAlways));
+        ui->labelImmature->setText(NYC3Units::formatWithUnit(unit, balances.immature_balance, false, NYC3Units::separatorAlways));
+        ui->labelTotal->setText(NYC3Units::formatWithUnit(unit, balances.balance + balances.unconfirmed_balance + balances.immature_balance, false, NYC3Units::separatorAlways));
+        ui->labelWatchAvailable->setText(NYC3Units::formatWithUnit(unit, balances.watch_only_balance, false, NYC3Units::separatorAlways));
+        ui->labelWatchPending->setText(NYC3Units::formatWithUnit(unit, balances.unconfirmed_watch_only_balance, false, NYC3Units::separatorAlways));
+        ui->labelWatchImmature->setText(NYC3Units::formatWithUnit(unit, balances.immature_watch_only_balance, false, NYC3Units::separatorAlways));
+        ui->labelWatchTotal->setText(NYC3Units::formatWithUnit(unit, balances.watch_only_balance + balances.unconfirmed_watch_only_balance + balances.immature_watch_only_balance, false, NYC3Units::separatorAlways));
     }
     // only show immature (newly mined) balance if it's non-zero, so as not to complicate things
     // for the non-mining users

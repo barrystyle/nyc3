@@ -14,7 +14,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/Bitcoin-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/NYC3-Qt (on Mac) or
 bitcoind/bitcoin-qt (on Linux).
 
 OpenSSL Warning
@@ -22,7 +22,7 @@ OpenSSL Warning
 
 OpenSSL 1.0.0p / 1.0.1k was recently released and is being pushed out by
 various operating system maintainers. Review by Gregory Maxwell determined that
-this update is incompatible with the Bitcoin system and could lead to consensus
+this update is incompatible with the NYC3 system and could lead to consensus
 forks.
 
 NYC3 released binaries from https://bitcoin.org are unaffected,

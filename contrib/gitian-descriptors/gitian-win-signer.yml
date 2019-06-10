@@ -1,5 +1,5 @@
 ---
-name: "bitcoin-win-signer"
+name: "nyc3-win-signer"
 suites:
 - "bionic"
 architectures:
