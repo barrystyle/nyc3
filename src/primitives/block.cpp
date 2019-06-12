@@ -18,7 +18,9 @@ uint256 CBlockHeader::GetHash() const
 
 uint256 CBlockHeader::GetPoWHash() const
 {
-    return argon2s_hash(BEGIN(nVersion), END(nNonce));
+    uint256 thash;
+    argon2s_hash(BEGIN(nVersion), BEGIN(thash));
+    return thash;
 }
 
 std::string CBlock::ToString() const
