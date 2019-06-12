@@ -31,9 +31,6 @@ SplashScreen::SplashScreen(interfaces::Node& node, Qt::WindowFlags f, const Netw
     setWindowFlags(Qt::FramelessWindowHint| Qt::WindowSystemMenuHint);
 
     // set reference point, paddings
-    int paddingLeft = 14;
-    int paddingTop = 410;
-    int titleCopyrightVSpace = 32;
     float fontFactor = 1.0;
     float devicePixelRatio = 1.0;
     QString font = QApplication::font().toString();
