@@ -112,8 +112,8 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 
 bool parseNYC3URI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no bitcoin: URI
-    if(!uri.isValid() || uri.scheme() != QString("bitcoin"))
+    // return if URI is not valid or is no nyc3: URI
+    if(!uri.isValid() || uri.scheme() != QString("nyc3"))
         return false;
 
     SendCoinsRecipient rv;
@@ -175,7 +175,7 @@ bool parseNYC3URI(QString uri, SendCoinsRecipient *out)
 
 QString formatNYC3URI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("bitcoin:%1").arg(info.address);
+    QString ret = QString("nyc3:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -622,8 +622,8 @@ fs::path static GetAutostartFilePath()
 {
     std::string chain = gArgs.GetChainName();
     if (chain == CBaseChainParams::MAIN)
-        return GetAutostartDir() / "bitcoin.desktop";
-    return GetAutostartDir() / strprintf("bitcoin-%s.lnk", chain);
+        return GetAutostartDir() / "nyc3.desktop";
+    return GetAutostartDir() / strprintf("nyc3-%s.lnk", chain);
 }
 
 bool GetStartOnSystemStartup()

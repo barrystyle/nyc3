@@ -306,7 +306,7 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and nyc3: URIs)</source>
         <translation>Solicitar pagos (genera codigo QR y URL's de NYC3)</translation>
     </message>
     <message>
@@ -318,8 +318,8 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir un bitcoin: URI o petición de pago</translation>
+        <source>Open a nyc3: URI or payment request</source>
+        <translation>Abrir un nyc3: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

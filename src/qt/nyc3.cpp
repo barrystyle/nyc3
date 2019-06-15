@@ -365,7 +365,7 @@ void NYC3Application::initializeResult(bool success)
 
 #ifdef ENABLE_WALLET
         // Now that initialization/startup is done, process any command-line
-        // bitcoin: URIs or payment requests:
+        // nyc3: URIs or payment requests:
         if (paymentServer) {
             connect(paymentServer, &PaymentServer::receivedPaymentRequest, window, &NYC3GUI::handlePaymentRequest);
             connect(window, &NYC3GUI::receivedURI, paymentServer, &PaymentServer::handleURIOrFile);
