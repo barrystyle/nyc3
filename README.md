@@ -2,7 +2,7 @@ NYC3 (NewYorkCoin3) integration/staging tree
 ============================================
 
 
-Built upon NYC3 Core 0.18; NYC3 offers a blocktime of 10 seconds, consensus operates using a modified version of the Argon2 password hashing algorithm (http://github.com/barrystyle/argon2s) in a POW configuration and uses LWMA3 to regulate block-spacing.
+Built upon Bitcoin Core 0.18; NYC3 offers a blocktime of 10 seconds, consensus operates using a modified version of the Argon2 password hashing algorithm (http://github.com/barrystyle/argon2s) in a POW configuration and uses LWMA3 to regulate block-spacing.
 
 
 License
